@@ -1,0 +1,43 @@
+.about-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.main-text-container{
+    padding: 12vh 1rem 1rem 10rem;
+}
+
+.main-image-container{
+    display: grid;
+    place-items: center;
+}
+
+.main-h1{
+    padding-bottom: 2rem;
+    font-size: 60px;
+}
+
+.titles-array{
+    padding-bottom: 2rem;
+    font-size: 50px;
+    color: #6C63FF;
+}
+
+.normal-h1{
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+
+.main-button{
+    border-radius: 12px;
+    background: none;
+    color: #000000;
+    width: 160px;
+    height: 64px;
+    font-size: 30px;
+    border-width: 1px;
+}
