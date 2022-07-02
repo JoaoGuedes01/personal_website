@@ -19,6 +19,13 @@ const Navbar = () => {
             <button className='nav-button'>Resume</button>
           </div>
         </ul>
+        <div className='hamb'>
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.33325 16.8972H27.9999M46.6666 16.8972H37.3333M9.33325 28.3555H46.6666M9.33325 39.8139H18.6666M46.6666 39.8139H27.9999" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+        </div>
       </div>
     </div>
   )

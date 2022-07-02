@@ -26,3 +26,21 @@ body::-webkit-scrollbar-thumb {
     background-color: #2f2f2f;    /* color of the scroll thumb */
     border-radius: 6px;       /* roundness of the scroll thumb */
 }
+
+
+.main-button-out{
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 12px;
+    font-size: clamp(0.75em, 4vw ,1.5em);
+
+}
+
+.main-button-fill{
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    font-size: clamp(0.75em, 4vw ,1.5em);
+}
