@@ -1,6 +1,7 @@
 .nav-logo {
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -30,14 +31,20 @@
     color: #000000;
 }
 
+.nav-link:focus{
+    color: #6C63FF;
+}
+
 .navbar .nav-button {
     border-radius: 12px;
     background: none;
     width: 105px;
     height: 42px;
     font-size: 20px;
-    border-width: 1px;
+    border-width: 2px;
     margin-left: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .hamb{

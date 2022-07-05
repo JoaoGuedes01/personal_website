@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: /*#0A192F*/ #fff;
 }
 
 button {
@@ -17,6 +18,8 @@ button {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/*Scrollbar*/
 
 body::-webkit-scrollbar {
     width: 10.35px;       /* width of the entire scrollbar */
@@ -34,7 +37,8 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid #000;
     border-radius: 12px;
     font-size: clamp(0.75em, 4vw ,1.5em);
-
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .main-button-fill{
@@ -43,4 +47,6 @@ body::-webkit-scrollbar-thumb {
     color: #fff;
     border-radius: 12px;
     font-size: clamp(0.75em, 4vw ,1.5em);
+    font-weight: 500;
+    cursor: pointer;
 }

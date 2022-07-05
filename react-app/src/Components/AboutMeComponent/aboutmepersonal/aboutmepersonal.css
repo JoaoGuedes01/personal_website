@@ -1,0 +1,227 @@
+.main-personal-conatiner{
+    margin-top: 5rem;
+}
+
+.about-container{
+    display: flex;
+    margin: 0rem 2rem;
+    margin: 0 auto;
+    gap: 2rem;
+    max-width: 90rem;
+    align-items: flex-start;
+}
+
+.about-nav{
+    margin-left: 2em;
+    max-width: 36em;
+    flex-basis: 100%;
+}
+
+.about-info{
+    max-width: 36em;
+    min-width: 20rem;
+    margin-right: 2rem;
+}
+
+.about-info h1{
+    max-width: 30rem;
+    font-size: clamp(2em, 2.5vw ,5em);
+}
+
+.about-info p{
+    margin: 2rem 0rem;
+    max-width: 50rem;
+    font-size: clamp(1em, 2vw ,1.2em);
+}
+
+.about-nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    list-style: none;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.about-item{
+    font-weight: 100;
+    font-size: clamp(1.5em, 2vw ,2em);
+    cursor: pointer;
+}
+
+.social-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 40rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+.social-item svg{
+    min-width: 1em;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 4em;
+}
+
+
+/* Soft Skills */
+
+.soft-container{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.soft-container ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.soft-item{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+/* Tech Skills */
+.tech-grid{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 5rem;
+}
+
+.grid-item{
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.item-name{
+    font-weight: 700;
+}
+
+.item-bar svg{
+    width: 100%;
+}
+
+/* Interests */
+
+.interests-grid{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    gap: 2.5rem 5rem;
+}
+
+.interests-item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+/* About this App */
+.app-built-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: start;
+    min-width: 5rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.app-built-title{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.design-apps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.designer-app-container{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.app-title{
+    color: #000000;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/*tablets*/
+@media screen and (max-width: 768px){
+    .about-container{
+        gap: 2rem;
+    }
+
+    .about-nav{
+        margin-left: 5%;
+    }
+
+    .about-info{
+        margin-right: 5%;
+    }
+}
+
+
+
+/*mobile (480)*/
+@media screen and (max-width: 520px){
+    .about-nav ul{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .about-item{
+        font-weight: 300;
+        font-size: clamp(1em, 2.5vw ,2em);
+    }
+
+    .about-container{
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+
+    .about-nav{
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .app-built-container svg{
+        width: 100%;
+    }
+
+    .app-built-container{
+        gap: 2rem;
+    }
+}

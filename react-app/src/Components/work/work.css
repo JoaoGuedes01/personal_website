@@ -1,0 +1,138 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 5rem 0rem;
+}
+
+.work-item{
+    display: flex;
+    max-width: 60rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    gap: 1rem;
+}
+
+.work-item-im{
+    width: max(50%,70%);
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+
+.work-item-description{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: .5rem 0;
+}
+
+.work-item-right-desc{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0.2rem 0.2rem rgb(59, 59, 59);
+}
+
+.work-item:nth-child(even) .work-item-description{
+    align-items: flex-start;
+}
+
+.work-item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.work-item:nth-child(even) .work-item-right-desc{
+    margin-right: -5rem;
+    box-shadow: -0.2rem 0.2rem rgb(59, 59, 59);
+}
+
+.work-item:nth-child(odd) .work-item-right-desc{
+    margin-left: -5rem;
+}
+
+.project-type{
+    display: flex;
+    gap: 0.3rem;
+}
+
+
+
+/*break up*/
+@media screen and (max-width: 745px){
+
+    .work-container{
+        margin: 5%;
+    }
+
+    .work-item{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .work-item-description{
+        background-color: #000;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0.2rem 0.2rem rgb(59, 59, 59);
+        max-width: 25rem;
+        margin-top: -4rem;
+        align-items: flex-start;
+        max-width: 25rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .work-item-im{
+        height: auto;
+        width: 100%;
+    }
+
+    .work-item svg path {
+        fill: white;
+    }
+
+    .work-item:nth-child(odd) .work-item-right-desc{
+        background-color: transparent;
+        box-shadow: none;
+        margin:auto;
+    }
+
+    .main-button-fill{
+        background-color: #fff;
+        color: #000;
+    }
+
+    .work-item:nth-child(even){
+        flex-direction: column;
+    }
+
+    .work-item:nth-child(even) .work-item-right-desc{
+        background-color: transparent;
+        box-shadow: none;
+        margin:auto;
+    }
+
+    .work-item:nth-child(even) .work-item-right-desc{
+        flex-direction: row-reverse;
+    }
+
+}
+
+
+
+
