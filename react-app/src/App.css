@@ -23,6 +23,7 @@ button {
 
 body::-webkit-scrollbar {
     width: 10.35px;       /* width of the entire scrollbar */
+    background-color: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -39,6 +40,8 @@ body::-webkit-scrollbar-thumb {
     font-size: clamp(0.75em, 4vw ,1.5em);
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
+    color: #000;
 }
 
 .main-button-fill{
@@ -49,4 +52,11 @@ body::-webkit-scrollbar-thumb {
     font-size: clamp(0.75em, 4vw ,1.5em);
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
