@@ -1,3 +1,20 @@
 .footer-container{
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+}
+
+.footer-container h5{
+    font-weight: 900;
+}
+
+.footer-message{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-margin{
+    margin: 1rem 2rem;
 }

@@ -4,10 +4,15 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer-container'>
-      <div className="footer-container">
+    <div className='footer-margin'>
+      <div className='footer-container'>
         {/* Toggle Switch Input */}
         <div>
+          <label className="switch">
+            <input type="checkbox" />
+            <span className="slider round"></span>
+          </label>
+
           <label className="switch">
             <input type="checkbox" />
             <span className="slider round"></span>
@@ -15,7 +20,10 @@ const Footer = () => {
         </div>
 
 
-        <h5>Designed and built by João Guedes 2022</h5>
+        <div className='footer-message'>
+          <h5>Designed and built by João Guedes 2022</h5>
+        </div>
+
       </div>
     </div>
   )

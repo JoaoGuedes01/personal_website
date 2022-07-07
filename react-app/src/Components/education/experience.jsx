@@ -3,47 +3,52 @@ import './education.css'
 
 import { useState } from 'react'
 
+import { motion } from 'framer-motion'
 
-const Experince = () => {
-    // Courses
-    const checkmarxurl = "https://checkmarx.com/"
 
-    const [toggleState, setToggleState] = useState(1);
+const Education = () => {
+  // Courses
+  const checkmarxurl = "https://checkmarx.com"
 
-    const ToggleTab = (index) => {
-        setToggleState(index);
-    }
 
-    return (
-        <div>
-            <div className="title-container">
-                <h1>My Experience</h1>
-            </div>
-            <div className="education-container">
-                <div className="ed-nav">
-                    <ul>
-                        <li onClick={() => setToggleState(1)}>Summer Internship for Software Engineering and QA</li>
-                    </ul>
-                </div>
-                <div className="ed-desc">
-                    {/* MIEGSI Tab */}
-                    {toggleState == 1 &&
-                        <div>
-                            <h1>Summer Internship for Software Engineering and QA</h1>
-                            <div className="ed-details">
-                                <h5>August 2021 - October 2021</h5>
-                                <h5>Checkmarx</h5>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-                            <a href={checkmarxurl} className='main-button-fill'>Check it out</a>
-                        </div>
-                    }
-                </div>
-            </div>
+  const [toggleState, setToggleState] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(1);
+
+  const ToggleTab = (index) => {
+    setToggleState(index);
+  }
+
+  return (
+    <div>
+      <div className="title-container">
+        <h1>My Experience</h1>
+      </div>
+
+      <div className="education-container">
+        <div className="ed-nav">
+          <ul >
+            <motion.li onClick={() => { setToggleState(1); setActiveIndex(1) }}> {activeIndex == 1 && <motion.span layoutId='highligh' className='highligh' />} Summer Internship for Software Engineering and Quality Assurance</motion.li>
+          </ul>
         </div>
-    )
+        <div className="ed-desc">
+          {/* MIEGSI Tab */}
+          {toggleState == 1 &&
+            <div>
+              <h1>Summer Internship for Software Engineering and Quality Assurance</h1>
+              <div className="ed-details">
+                <h5>September 2018 - Present</h5>
+                <h5>University of Minho</h5>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+              <a href={checkmarxurl} className='main-button-fill'>Check it out</a>
+            </div>
+          }
+        </div>
+      </div >
+    </div >
+  )
 }
 
-export default Experince
+export default Education

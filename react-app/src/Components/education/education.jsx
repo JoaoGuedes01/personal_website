@@ -3,6 +3,8 @@ import './education.css'
 
 import { useState } from 'react'
 
+import { motion } from 'framer-motion'
+
 
 const Education = () => {
   // Courses
@@ -20,6 +22,7 @@ const Education = () => {
   const ethhackcert = "https://www.udemy.com/certificate/UC-e80e8d34-2f11-481f-aa73-441cccf2fd40/"
 
   const [toggleState, setToggleState] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(1);
 
   const ToggleTab = (index) => {
     setToggleState(index);
@@ -30,14 +33,15 @@ const Education = () => {
       <div className="title-container">
         <h1>My Education</h1>
       </div>
+
       <div className="education-container">
         <div className="ed-nav">
-          <ul>
-            <li onClick={() => setToggleState(1)}>Master's Student of Management and Information Systems</li>
-            <li onClick={() => setToggleState(2)}>The Web Developer Bootcamp 2022</li>
-            <li onClick={() => setToggleState(3)}>Angular & NodeJS - The MEAN Stack</li>
-            <li onClick={() => setToggleState(4)}>Angular - The complete Guide</li>
-            <li onClick={() => setToggleState(5)}>Ethical Hacking</li>
+          <ul >
+            <motion.li onClick={() => { setToggleState(1); setActiveIndex(1) }}> {activeIndex == 1 && <motion.span layoutId='highligh' className='highligh' />} Master's Student of Management and Information Systems</motion.li>
+            <motion.li onClick={() => { setToggleState(2); setActiveIndex(2) }}> {activeIndex == 2 && <motion.span layoutId='highligh' className='highligh' />}The Web Developer Bootcamp 2022</motion.li>
+            <motion.li onClick={() => { setToggleState(3); setActiveIndex(3) }}> {activeIndex == 3 && <motion.span layoutId='highligh' className='highligh' />}Angular & NodeJS - The MEAN Stack</motion.li>
+            <motion.li onClick={() => { setToggleState(4); setActiveIndex(4) }}> {activeIndex == 4 && <motion.span layoutId='highligh' className='highligh' />}Angular - The complete Guide</motion.li>
+            <motion.li onClick={() => { setToggleState(5); setActiveIndex(5) }}> {activeIndex == 5 && <motion.span layoutId='highligh' className='highligh' />}Ethical Hacking</motion.li>
           </ul>
         </div>
         <div className="ed-desc">
@@ -120,8 +124,8 @@ const Education = () => {
             </div>
           }
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }
 

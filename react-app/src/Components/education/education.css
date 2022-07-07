@@ -17,12 +17,21 @@
     gap: 2rem;
     max-width: 20rem;
     min-width: 10rem;
-    border-right: 3.3px solid;
-    padding-right: 2rem;
+    border-left: 0.3rem solid;
 }
 
 .ed-nav li {
     cursor: pointer;
+    margin-left: -0.3rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.highligh{
+    inset: 0;
+    position: absolute;
+    border-left: 0.3rem solid #6C63FF;
+    z-index: 1;
 }
 
 .ed-details{
@@ -49,7 +58,6 @@
     margin-right: 2rem;
 }
 
-
 @media screen and (max-width: 780px){
     .education-container{
         flex-direction: column;
@@ -62,17 +70,26 @@
 
     .ed-nav ul {
         flex-direction: row;
-        align-items: center;
         justify-content: flex-start;
         overflow-x: scroll;
         max-width: 100%;
+        height: auto;
         gap: 1.5rem;
-        border-bottom: 3.3px solid;
-        border-right: 0;
-        padding-bottom: 1rem;
+        border-left: none;
+        align-items: flex-end;
+        border-bottom: 0.3 solid #000;
     }
 
     .ed-nav li{
-        min-width: 10rem;
+        padding-left: 0;
+        min-width: 15rem;
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .highligh{
+        z-index: -1;
+        border-bottom: 0.3rem solid #6C63FF;
+        border-left: none;
     }
 }
