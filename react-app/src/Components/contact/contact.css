@@ -69,6 +69,14 @@
     gap: 1rem;
 }
 
+.btn-contanier h3{
+    font-size: 1em;
+}
+
+.btn-contanier svg{
+    min-width: 1rem;
+    height: auto;
+}
 
 
 
@@ -136,6 +144,11 @@
     .message-container{
         margin: 0 5%;
         margin-top: 6rem;
+    }
+
+    .btn-contanier svg{
+        max-width: 0.5rem;
+        height: auto;
     }
     
 }

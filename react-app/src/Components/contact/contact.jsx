@@ -1,8 +1,9 @@
 import React from 'react'
 import './contact.css'
+import {motion} from 'framer-motion'
 const Contact = () => {
   return (
-    <div className='ctc-ctnr'>
+    <motion.div className='ctc-ctnr' initial={{ y: "20%", opacity:0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
       <div className="title-container">
         <h1>Let's Talk</h1>
       </div>
@@ -65,15 +66,14 @@ const Contact = () => {
         <textarea className='message-area' cols="30" rows="10" placeholder='Message'></textarea>
         <button className='main-button-fill'>
           <div className="btn-contanier">
-            Send
+            <h3>Send</h3>
             <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.6036 3.45729L25.6749 13.5349C26.2977 13.8327 26.5611 14.5791 26.2632 15.2019C26.1401 15.4594 25.9324 15.667 25.6749 15.7902L4.6036 25.8678C3.9808 26.1656 3.23447 25.9022 2.93661 25.2794C2.80718 25.0088 2.77939 24.7006 2.85832 24.4112L4.96587 16.6833C5.01867 16.4897 5.18211 16.3464 5.38096 16.3194L15.5916 14.9324C15.6795 14.9199 15.7525 14.8621 15.7861 14.7831L15.8037 14.7203C15.8204 14.6032 15.753 14.4934 15.6474 14.4521L15.5916 14.4375L5.39291 13.0506C5.19408 13.0235 5.03068 12.8802 4.97789 12.6867L2.85832 4.91386C2.67668 4.24783 3.06935 3.56065 3.73538 3.37901C4.0248 3.30007 4.33296 3.32786 4.6036 3.45729Z" fill="white" />
             </svg>
-
           </div>
         </button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
