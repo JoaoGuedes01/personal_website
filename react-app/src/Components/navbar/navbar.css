@@ -51,6 +51,42 @@
     display: none;
     width: 3.5em;
 }
+.hamb-menu-close{
+    margin: 2rem 3rem auto auto;
+    width: fit-content;
+}
+.hamb-menu-active{
+    display: block;
+    background-color: #fff;
+    inset: 0;
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    margin-left: auto;
+    box-shadow: -5px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    overflow: auto;
+}
+
+.hamb-menu-items{
+    display: grid;
+    place-items: center;
+    margin: 10rem 0;
+}
+
+.hamb-menu-items ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.hamb-menu-inactive{
+    display: none;
+}
+
+
+
+
 
 
 @media screen and (max-width:940px){
@@ -58,9 +94,11 @@
         display: none;
     }
 
+
     .hamb{
         display: block;
     }
+
 }
 
 

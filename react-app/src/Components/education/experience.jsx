@@ -19,7 +19,7 @@ const Education = () => {
   }
 
   return (
-    <div>
+    <motion.div initial={{ y: "20%", opacity:0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
       <div className="title-container">
         <h1>My Experience</h1>
       </div>
@@ -47,7 +47,7 @@ const Education = () => {
           }
         </div>
       </div >
-    </div >
+    </motion.div >
   )
 }
 

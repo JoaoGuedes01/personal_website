@@ -1,6 +1,6 @@
 import React from 'react'
 import './work.css'
-
+import {motion} from 'framer-motion'
 /* Project Images */
 import rf1 from "./img/rf/rforecasting-1.png"
 
@@ -8,7 +8,7 @@ import rf1 from "./img/rf/rforecasting-1.png"
 
 const Work = () => {
   return (
-    <div>
+    <motion.div initial={{ y: "20%", opacity:0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
       <div className="title-container">
         <h1>My Work</h1>
       </div>
@@ -76,7 +76,7 @@ const Work = () => {
         <div className="work-item"></div>
         <div className="work-item"></div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 export default Work

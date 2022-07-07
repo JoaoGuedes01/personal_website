@@ -3,7 +3,7 @@ import './education.css'
 
 import { useState } from 'react'
 
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 
 const Education = () => {
@@ -29,7 +29,7 @@ const Education = () => {
   }
 
   return (
-    <div>
+    <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
       <div className="title-container">
         <h1>My Education</h1>
       </div>
@@ -46,86 +46,88 @@ const Education = () => {
         </div>
         <div className="ed-desc">
           {/* MIEGSI Tab */}
-          {toggleState == 1 &&
-            <div>
-              <h1>Master's Student of Management Engineering and Information Systems</h1>
-              <div className="ed-details">
-                <h5>September 2018 - Present</h5>
-                <h5>University of Minho</h5>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={miegsiurl} className='main-button-fill'>Check it out</a>
-            </div>
-          }
+          <AnimatePresence exitBeforeEnter>
+            {toggleState == 1 &&
+              <motion.div key={"abc1"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+                <h1>Master's Student of Management Engineering and Information Systems</h1>
+                <div className="ed-details">
+                  <h5>September 2018 - Present</h5>
+                  <h5>University of Minho</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <a href={miegsiurl} className='main-button-fill'>Check it out</a>
+              </motion.div>
+            }
 
-          {/* Web Dev Bootcamp Tab */}
-          {toggleState == 2 &&
-            <div>
-              <h1>The Web Developer Bootcamp 2022</h1>
-              <div className="ed-details">
-                <h5>March 2022 - June 2022</h5>
-                <h5>Udemy</h5>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={webdevbooturl} className='main-button-fill'>Check it out</a>
-              <a href={webdevbootcert} className='main-button-out'>Certificate</a>
-            </div>
-          }
+            {/* Web Dev Bootcamp Tab */}
+            {toggleState == 2 &&
+              <motion.div key={"abc2"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+                <h1>The Web Developer Bootcamp 2022</h1>
+                <div className="ed-details">
+                  <h5>March 2022 - June 2022</h5>
+                  <h5>Udemy</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <a href={webdevbooturl} className='main-button-fill'>Check it out</a>
+                <a href={webdevbootcert} className='main-button-out'>Certificate</a>
+              </motion.div>
+            }
 
-          {/* MEAN Tab */}
-          {toggleState == 3 &&
-            <div>
-              <h1>Angular & NodeJS - The MEAN Stack</h1>
-              <div className="ed-details">
-                <h5>June 2020 - August 2020</h5>
-                <h5>Udemy</h5>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={meanurl} className='main-button-fill'>Check it out</a>
-              <a href={meancert} className='main-button-out'>Certificate</a>
-            </div>
-          }
+            {/* MEAN Tab */}
+            {toggleState == 3 &&
+              <motion.div key={"abc3"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+                <h1>Angular & NodeJS - The MEAN Stack</h1>
+                <div className="ed-details">
+                  <h5>June 2020 - August 2020</h5>
+                  <h5>Udemy</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <a href={meanurl} className='main-button-fill'>Check it out</a>
+                <a href={meancert} className='main-button-out'>Certificate</a>
+              </motion.div>
+            }
 
-          {/* Angular Tab */}
-          {toggleState == 4 &&
-            <div>
-              <h1>Angular- The complete Guide</h1>
-              <div className="ed-details">
-                <h5>June 2020 - August 2020</h5>
-                <h5>Udemy</h5>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={angularurl} className='main-button-fill'>Check it out</a>
-              <a href={angularcert} className='main-button-out'>Certificate</a>
-            </div>
-          }
+            {/* Angular Tab */}
+            {toggleState == 4 &&
+              <motion.div key={"abc4"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+                <h1>Angular- The complete Guide</h1>
+                <div className="ed-details">
+                  <h5>June 2020 - August 2020</h5>
+                  <h5>Udemy</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <a href={angularurl} className='main-button-fill'>Check it out</a>
+                <a href={angularcert} className='main-button-out'>Certificate</a>
+              </motion.div>
+            }
 
-          {/* Ethical Hacking Tab */}
-          {toggleState == 5 &&
-            <div>
-              <h1>Learn Ethical Hacking from scratch</h1>
-              <div className="ed-details">
-                <h5>June 2020 - August 2020</h5>
-                <h5>Udemy</h5>
-              </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={ethhackurl} className='main-button-fill'>Check it out</a>
-              <a href={ethhackcert} className='main-button-out'>Certificate</a>
-            </div>
-          }
+            {/* Ethical Hacking Tab */}
+            {toggleState == 5 &&
+              <motion.div key={"abc5"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+                <h1>Learn Ethical Hacking from scratch</h1>
+                <div className="ed-details">
+                  <h5>June 2020 - August 2020</h5>
+                  <h5>Udemy</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
+                <a href={ethhackurl} className='main-button-fill'>Check it out</a>
+                <a href={ethhackcert} className='main-button-out'>Certificate</a>
+              </motion.div>
+            }
+          </AnimatePresence>
         </div>
       </div >
-    </div >
+    </motion.div >
   )
 }
 
