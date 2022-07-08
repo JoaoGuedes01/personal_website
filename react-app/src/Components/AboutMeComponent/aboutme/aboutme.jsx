@@ -1,51 +1,44 @@
+// Imports
 import React from 'react'
-
 import './aboutme.css'
 
+// Container Content
+import { data } from './data'
+
+// Svg images
+import Dash from './svg/dash'
+import Profile from './svg/profile'
+
+
+
 const Aboutme = () => {
+  // Language var for this page
+  let lang = "eng"
+
+  // JSX Container
   return (
     <div className='main-container'>
       <div className='main-intro-container'>
         <div className="hello-container">
-          <svg width="48" height="5" viewBox="0 0 48 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0.0090332" y="0.895996" width="47.9039" height="3.33473" fill="black" />
-          </svg>
-          <h5>Hello There</h5>
+          <Dash />
+          <h5>{data.greet.eng}</h5>
         </div>
-        <h1>My name is João Guedes</h1>
-        <h2>Masters Student of Management and Information Systems</h2>
-        <p>I love to code, create and problem-solve and this is my personal Website and projects portfolio</p>
-        <p>Check out my latest work, I'm really proud of it</p>
+        <h1>{data.intro[lang]}</h1>
+        <h2>{data.titles[lang]}</h2>
+        <p>{data.p1[lang]}</p>
+        <p>{data.p2[lang]}</p>
         <div className="main-button-container">
-          <button className='main-button-out'>Let's Go</button>
-          <button className='main-button-fill'>Let's Talk</button>
+          <button className='main-button-out'>{data.btnProj[lang]}</button>
+          <button className='main-button-fill'>{data.btnContact[lang]}</button>
         </div>
       </div>
       <div className="main-im-container">
-        <svg width="544" height="560" viewBox="0 0 544 560" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="370.579" cy="386.218" r="173.35" fill="#6C63FF" />
-          <circle cx="121.1" cy="121.015" r="120.546" fill="#6C63FF" />
-          <ellipse cx="264.741" cy="289.823" rx="118.865" ry="147.557" fill="#F8E4C8" />
-          <path d="M190.419 150.293C162.457 168.923 142.64 235.017 136.226 265.735C133.148 289.46 144.029 279.999 149.855 272.303C160.918 249.148 186.764 197.982 201.643 178.557C220.242 154.274 320.932 135.366 277 127.404C241.855 121.035 204.636 140.01 190.419 150.293Z" fill="#2A1415" />
-          <path d="M347.617 150.293C375.58 168.923 395.397 235.017 401.81 265.735C404.889 289.46 394.008 279.999 388.182 272.303C377.119 249.148 351.273 197.982 336.394 178.557C317.795 154.274 217.105 135.366 261.037 127.404C296.182 121.035 333.401 140.01 347.617 150.293Z" fill="#2A1415" />
-          <ellipse cx="266.92" cy="188.847" rx="80.204" ry="24.0207" fill="#2A1415" />
-          <ellipse cx="266.92" cy="150.147" rx="80.204" ry="24.0207" fill="#2A1415" />
-          <path d="M231.605 244.224C199.576 213.992 197.401 174.841 200.318 159.045C211.905 158.11 231.237 158.446 215.862 167.266C200.487 176.086 219.951 222.246 231.605 244.224Z" fill="#2A1415" />
-          <path d="M253.512 228.175C216.751 207.868 207.401 170.381 207.32 154.175C218.426 149.966 237.305 144.789 223.969 157.751C210.634 170.714 238.108 210.101 253.512 228.175Z" fill="#2A1415" />
-          <path d="M306.722 241.561C269.962 221.254 260.611 183.767 260.531 167.561C271.637 163.352 290.515 158.174 277.18 171.137C263.844 184.099 291.318 223.487 306.722 241.561Z" fill="#2A1415" />
-          <path d="M277.335 252.252C314.096 231.945 323.447 194.458 323.527 178.252C312.421 174.043 293.542 168.865 306.878 181.828C320.214 194.791 292.739 234.178 277.335 252.252Z" fill="#2A1415" />
-          <path d="M387.434 295.257C389.167 310.103 375.302 441.562 264.031 442.423C262.543 442.434 261.074 442.419 259.622 442.378L260.712 436.795V351.156H299.412C297.729 388.754 313.153 377.266 333.344 372.044C353.535 366.822 373.575 283.652 374.075 284.397C374.575 285.142 378.88 288.359 379.117 288.751C379.354 289.143 382.749 291.398 382.881 291.692C382.986 291.927 385.399 293.489 386.592 294.24L387.434 295.257Z" fill="#3A2C2E" />
-          <path d="M142.049 295.257C140.316 310.103 154.181 441.562 265.452 442.423C266.939 442.434 268.409 442.419 269.861 442.378L268.771 436.795V351.156H230.071C231.754 388.754 216.33 377.266 196.139 372.044C175.947 366.822 155.908 283.652 155.408 284.397C154.908 285.142 150.603 288.359 150.366 288.751C150.129 289.143 146.733 291.398 146.602 291.692C146.497 291.927 144.084 293.489 142.89 294.24L142.049 295.257Z" fill="#3A2C2E" />
-          <ellipse rx="92.3444" ry="21.3322" transform="matrix(0.547996 -0.836481 0.703735 0.710462 186.716 222.983)" fill="#2A1415" />
-          <rect x="242.822" y="368.997" width="44.4306" height="14.9979" fill="#F8E4C8" />
-          <ellipse rx="92.3444" ry="21.3322" transform="matrix(-0.547996 -0.836481 -0.703735 0.710462 345.483 218.526)" fill="#2A1415" />
-        </svg>
-
-
+        <Profile />
       </div>
 
     </div>
   )
 }
 
+// Export Container
 export default Aboutme
