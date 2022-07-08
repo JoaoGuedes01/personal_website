@@ -35,7 +35,7 @@ const Aboutmepersonal = (props) => {
           <AnimatePresence exitBeforeEnter>
             {/* Description Tab */}
             {toggleState === 1 &&
-              <motion.div key={"abc1"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc1"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1 className='about-title'>{data[0].description.title[lang]}</h1>
                 <p className='about-p'>{data[0].description.p1[lang]}</p>
                 <p className="about-p">{data[0].description.p2[lang]}</p>
@@ -43,7 +43,7 @@ const Aboutmepersonal = (props) => {
             }
             {/* Soft Skills Tab */}
             {toggleState === 2 &&
-              <motion.div key={"abc2"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc2"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1 className='about-title'>My Soft Skills</h1>
                 <div className='soft-container'>
                   <ul>
@@ -57,7 +57,7 @@ const Aboutmepersonal = (props) => {
 
             {/* Tech Skills Tab */}
             {toggleState === 3 &&
-              <motion.div key={"abc3"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc3"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1 className='about-title'>{data[2].description.title[lang]}</h1>
                 <div className="tech-grid">
 
@@ -76,16 +76,16 @@ const Aboutmepersonal = (props) => {
 
             {/* Interests Tab */}
             {toggleState === 4 &&
-              <motion.div key={"abc4"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc4"} initial={{ x: 10 , opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1 className='about-title'>{data[3].description.title[lang]}</h1>
                 <div className='interests-grid'>
                   {data[3].description.int_list.map((item, index) => (
-                    <div key={index} className="interests-item">
+                    <motion.div key={index} className="interests-item" /*initial={{y:-10, opacity:0}} animate={{y:0, opacity:1}} exit={{y:10, opacity:0}} transition={{delay:0.05*index}}*/>
                       <div className="interests-icon">
                         <SvgsInt index={index} />
                       </div>
                       <div className="interests-title">{item}</div>
-                    </div>
+                    </motion.div>
                   ))}
                 </div>
               </motion.div>
@@ -93,7 +93,7 @@ const Aboutmepersonal = (props) => {
 
             {/* About this App Tab */}
             {toggleState === 5 &&
-              <motion.div key={"abc5"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc5"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1 className='about-title'>{data[4].description.title[lang]}</h1>
 
                 <div className='soft-container'>

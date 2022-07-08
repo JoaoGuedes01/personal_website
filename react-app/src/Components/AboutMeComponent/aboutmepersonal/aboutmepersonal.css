@@ -9,18 +9,17 @@
     gap: 2rem;
     max-width: 90rem;
     align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .about-nav{
     margin-left: 2em;
     max-width: 36em;
-    flex-basis: 100%;
 }
 
 .about-info{
-    max-width: 36em;
+    max-width: 40em;
     min-width: 20rem;
-    margin-right: 2rem;
 }
 
 .about-info h1{
@@ -126,7 +125,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: end;
-    gap: 2.5rem 5rem;
+    gap: 2.5rem 20%;
 }
 
 .interests-item{
