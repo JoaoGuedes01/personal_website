@@ -21,7 +21,7 @@ const Aboutme = (props) => {
       <div className='main-intro-container'>
         <div className="hello-container">
           <Dash />
-          <h5>{data.greet.eng}</h5>
+          <h5>{data.greet[lang]}</h5>
         </div>
         <h1>{data.intro[lang]}</h1>
         <h2>{data.titles[lang]}</h2>
