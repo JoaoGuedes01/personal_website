@@ -18,18 +18,18 @@ const svgsSocial = (props) => {
 
             {props.name == "codepen" &&
                 <svg width="69" height="68" viewBox="0 0 69 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M34.25 5.66663L62.5834 24.0833V43.9166L34.25 62.3333L5.91669 43.9166V24.0833L34.25 5.66663Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M34.25 62.3333V43.9166" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M62.5834 24.0834L34.25 43.9167L5.91669 24.0834" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5.91669 43.9167L34.25 24.0834L62.5834 43.9167" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M34.25 5.66663V24.0833" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M34.25 5.66663L62.5834 24.0833V43.9166L34.25 62.3333L5.91669 43.9166V24.0833L34.25 5.66663Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M34.25 62.3333V43.9166" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M62.5834 24.0834L34.25 43.9167L5.91669 24.0834" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5.91669 43.9167L34.25 24.0834L62.5834 43.9167" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M34.25 5.66663V24.0833" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
 
             }
 
             {props.name == "youtube" &&
                 <svg width="71" height="70" viewBox="0 0 71 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_130_21)">
+                    <g clipPath="url(#clip0_130_21)">
                         <path d="M35.9731 8.74561H36.3625C39.9588 8.75873 58.1806 8.88998 63.0938 10.2112C64.579 10.6145 65.9325 11.4005 67.0188 12.4906C68.1052 13.5808 68.8864 14.937 69.2844 16.4237C69.7263 18.0862 70.0369 20.2869 70.2469 22.5575L70.2906 23.0125L70.3869 24.15L70.4219 24.605C70.7063 28.6037 70.7413 32.3487 70.7456 33.1669V33.495C70.7413 34.3437 70.7019 38.3425 70.3869 42.5075L70.3519 42.9669L70.3125 43.4219C70.0938 45.9244 69.77 48.4094 69.2844 50.2381C68.8876 51.7254 68.1068 53.0822 67.0203 54.1726C65.9337 55.263 64.5796 56.0486 63.0938 56.4506C58.0188 57.8156 38.7294 57.9119 36.0563 57.9162H35.435C34.0831 57.9162 28.4919 57.89 22.6294 57.6887L21.8856 57.6625L21.505 57.645L20.7569 57.6144L20.0088 57.5837C15.1525 57.3694 10.5281 57.0237 8.3975 56.4462C6.91214 56.0446 5.55841 55.2597 4.47192 54.1701C3.38543 53.0805 2.60433 51.7246 2.20688 50.2381C1.72125 48.4137 1.3975 45.9244 1.17875 43.4219L1.14375 42.9625L1.10875 42.5075C0.892833 39.543 0.773187 36.5722 0.75 33.6L0.75 33.0619C0.75875 32.1212 0.79375 28.8706 1.03 25.2831L1.06063 24.8325L1.07375 24.605L1.10875 24.15L1.205 23.0125L1.24875 22.5575C1.45875 20.2869 1.76938 18.0819 2.21125 16.4237C2.60803 14.9364 3.38884 13.5796 4.47537 12.4892C5.56191 11.3988 6.91599 10.6133 8.40188 10.2112C10.5325 9.64248 15.1569 9.29248 20.0131 9.07373L20.7569 9.04311L21.5094 9.01686L21.8856 9.00373L22.6338 8.97311C26.7975 8.83912 30.9629 8.76474 35.1288 8.74998H35.9731V8.74561ZM28.75 22.7894V43.8681L46.9369 33.3331L28.75 22.7894Z" fill="black" />
                     </g>
                     <defs>

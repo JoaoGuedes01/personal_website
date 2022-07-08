@@ -11,11 +11,7 @@ import SvgsInt from './svgs-int'
 import SvgsApps from './svgs-apps'
 import SvgsSocial from './svgs-social'
 
-const Aboutmepersonal = () => {
-  const driburl = "";
-  const figmaurl = ""
-
-
+const Aboutmepersonal = (props) => {
 
   const [toggleState, setToggleState] = useState(1);
 
@@ -23,11 +19,7 @@ const Aboutmepersonal = () => {
     setToggleState(index);
   }
 
-  const NavigateToPage = (url) => {
-    window.location.replace(url);
-  }
-
-  let lang = "eng"
+  let lang = props.lang
 
   return (
     <div className='main-personal-conatiner'>
@@ -88,7 +80,7 @@ const Aboutmepersonal = () => {
                 <h1 className='about-title'>{data[3].description.title[lang]}</h1>
                 <div className='interests-grid'>
                   {data[3].description.int_list.map((item, index) => (
-                    <div className="interests-item">
+                    <div key={index} className="interests-item">
                       <div className="interests-icon">
                         <SvgsInt index={index} />
                       </div>
@@ -108,7 +100,7 @@ const Aboutmepersonal = () => {
                   <div className='app-built-title'>{data[4].description.sub1[lang]}</div>
                   <div className="app-built-container">
                     {data[4].description.tech.map((item) => (
-                      <div>
+                      <div key={item}>
                         <SvgsApps name={item} />
                       </div>
                     ))}
@@ -117,7 +109,7 @@ const Aboutmepersonal = () => {
                   <div className="app-built-title">{data[4].description.sub2[lang]}</div>
                   <div className="design-apps">
                     {data[4].description.apps.map((item) => (
-                      <div className="designer-app-container">
+                      <div key={item} className="designer-app-container">
                         <div className="bar">
                           <SvgsApps name={item} />
                         </div>
@@ -147,7 +139,7 @@ const Aboutmepersonal = () => {
         <ul className="social-container">
 
           {socialData.map((item) => (
-            <a className="social-item" href={item.url}>
+            <a key={item.name} className="social-item" href={item.url}>
               <SvgsSocial name={item.name} />
             </a>
           ))}
