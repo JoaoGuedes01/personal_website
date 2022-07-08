@@ -45,7 +45,7 @@ const Navbar = () => {
             <motion.div className='hamb-menu-active' initial={{ x: "100%" }} animate={{ x: 0 }} exit={{ x: "100%" }} transition={{ type: "spring", duration: 0.5 }}>
               <div className='hamb-menu-close' onClick={toggleSidebar}>
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.891113 1.07031L24.4613 24.6405M0.891113 24.6405L24.4613 1.07031" stroke="black" stroke-linecap="square" />
+                  <path d="M0.891113 1.07031L24.4613 24.6405M0.891113 24.6405L24.4613 1.07031" stroke="black" strokeLinecap="square" />
                 </svg>
               </div>
 
