@@ -48,7 +48,7 @@ const Education = () => {
           {/* MIEGSI Tab */}
           <AnimatePresence exitBeforeEnter>
             {toggleState == 1 &&
-              <motion.div key={"abc1"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc1"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1>Master's Student of Management Engineering and Information Systems</h1>
                 <div className="ed-details">
                   <h5>September 2018 - Present</h5>
@@ -63,7 +63,7 @@ const Education = () => {
 
             {/* Web Dev Bootcamp Tab */}
             {toggleState == 2 &&
-              <motion.div key={"abc2"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc2"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1>The Web Developer Bootcamp 2022</h1>
                 <div className="ed-details">
                   <h5>March 2022 - June 2022</h5>
@@ -79,7 +79,7 @@ const Education = () => {
 
             {/* MEAN Tab */}
             {toggleState == 3 &&
-              <motion.div key={"abc3"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc3"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1>Angular & NodeJS - The MEAN Stack</h1>
                 <div className="ed-details">
                   <h5>June 2020 - August 2020</h5>
@@ -95,7 +95,7 @@ const Education = () => {
 
             {/* Angular Tab */}
             {toggleState == 4 &&
-              <motion.div key={"abc4"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc4"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1>Angular- The complete Guide</h1>
                 <div className="ed-details">
                   <h5>June 2020 - August 2020</h5>
@@ -111,7 +111,7 @@ const Education = () => {
 
             {/* Ethical Hacking Tab */}
             {toggleState == 5 &&
-              <motion.div key={"abc5"} initial={{ x: "20%", opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <motion.div key={"abc5"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
                 <h1>Learn Ethical Hacking from scratch</h1>
                 <div className="ed-details">
                   <h5>June 2020 - August 2020</h5>
