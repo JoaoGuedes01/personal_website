@@ -2,14 +2,24 @@ import React from 'react'
 import './Footer.css'
 
 
-const Footer = () => {
+
+const Footer = ({ setLang, lang }) => {
+
+  const handleChangeLang = () => {
+    if (lang == "pt") {
+      setLang("eng")
+    } else {
+      setLang("pt")
+    }
+  }
+
   return (
     <div className='footer-margin'>
       <div className='footer-container'>
         {/* Toggle Switch Input */}
         <div>
           <label className="switch">
-            <input type="checkbox" />
+            <input onChange={handleChangeLang} type="checkbox" />
             <span className="slider round"></span>
           </label>
 

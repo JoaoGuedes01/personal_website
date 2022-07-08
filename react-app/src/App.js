@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -18,13 +18,13 @@ import {
   Footer,
 } from "./Components";
 
-const AnimatedRoutes = () => {
+const AnimatedRoutes = (props) => {
   const location = useLocation();
-
+  const lang = props.lang;
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.key}>
-        <Route exact path="/" element={<Aboutme />} />
+        <Route exact path="/" element={<Aboutme lang={lang} />} />
         <Route exact path="/work" element={<Work />} />
         <Route exact path="/experience" element={<Experience />} />
         <Route exact path="/education" element={<Education />} />
@@ -35,12 +35,13 @@ const AnimatedRoutes = () => {
 };
 
 const App = () => {
+  const [lang, setLang] = useState("eng");
   return (
     <div>
       <Router>
         <Navbar />
-        <AnimatedRoutes />
-        <Footer />
+        <AnimatedRoutes lang={lang}/>
+        <Footer setLang={setLang} lang={lang}/>
       </Router>
     </div>
   );

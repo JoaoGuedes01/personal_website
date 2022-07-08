@@ -11,9 +11,9 @@ import Profile from './svg/profile'
 
 
 
-const Aboutme = () => {
+const Aboutme = (props) => {
   // Language var for this page
-  let lang = "eng"
+  let lang = props.lang
 
   // JSX Container
   return (
