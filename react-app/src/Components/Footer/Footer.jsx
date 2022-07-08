@@ -19,14 +19,15 @@ const Footer = ({ setLang, lang }) => {
         {/* Toggle Switch Input */}
         <div>
           <label className="switch">
+            toggle language (dev)
             <input onChange={handleChangeLang} type="checkbox" />
             <span className="slider round"></span>
           </label>
 
-          <label className="switch">
+         {/* <label className="switch">
             <input type="checkbox" />
             <span className="slider round"></span>
-          </label>
+          </label>*/}
         </div>
 
 
