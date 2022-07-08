@@ -12,11 +12,11 @@ export const data = [
         eng: "A little about me",
       },
       p1: {
-        pt: "",
-        eng: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quod exercitationem quos assumenda, laudantium deleniti perspiciatis eum maiores perferendis sint dicta voluptas accusantium nihil neque recusandae dolorem ut reprehenderit cum dolore itaque id ratione asperiores natus. Distinctio, praesentium? Dolorem, nihil?",
+        pt: "A dor em si é importante para a elite adipisical principal. Você pode perceber que o próprio exercício, que deve ser realizado, e a distribuição para acalmá-lo, pode ser o maior prazer em suportar as palavras dos acusadores, nem a dor de ser aceito para condená-lo com dor ",
+        eng: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quod exercitationem quos assumenda, laudantium deleniti perspiciatis eum maiores perferendis sint dicta voluptas accusantium nihil neque recusandae dolorem ut reprehenderit cum dolore itaque id ratione asperiores natus. Distinctio, praesentium? Dolorem",
       },
       p2: {
-        pt: "",
+        pt: "A dor em si é importante para a elite adipisical principal. Do sábio de fato acalma alguns para obtê-lo, outras vezes temos momentos felizes",
         eng: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in quidem sapiente adipisci eius quibusdam deleniti, tempora beatae nobis alias",
       },
     },
@@ -35,7 +35,15 @@ export const data = [
         eng: "My Soft Skills",
       },
       soft_skills: {
-        pt: [],
+        pt: [
+          "Trabalhador",
+          "Trabalhador Ético",
+          "Interessado",
+          "Investido",
+          "Trabalhador de Equipa",
+          "Auto-Suficiente",
+          "Adaptável",
+        ],
         eng: [
           "Hard Worker",
           "Ethical Worker",
@@ -58,7 +66,7 @@ export const data = [
     },
     description: {
       title: {
-        pt: "",
+        pt: "As minhas Habilidades Técnicas",
         eng: "My Technical Skills",
       },
       tech_list: [
@@ -146,11 +154,11 @@ export const data = [
         eng: "About this App",
       },
       sub1: {
-        pt: "",
+        pt: "Esta App foi desenvolvida com",
         eng: "This app was built with",
       },
       sub2: {
-        pt: "",
+        pt: "Utilizando o meu próprio design original, explore-o aqui",
         eng: "Using my own original design, check it out",
       },
       tech: ["react", "motion", "jsx", "css"],
