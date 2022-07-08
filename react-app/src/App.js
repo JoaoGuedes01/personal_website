@@ -25,7 +25,7 @@ const AnimatedRoutes = (props) => {
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.key}>
         <Route exact path="/" element={<Aboutme lang={lang} />} />
-        <Route exact path="/work" element={<Work />} />
+        <Route exact path="/work" element={<Work lang={lang} />} />
         <Route exact path="/experience" element={<Experience />} />
         <Route exact path="/education" element={<Education />} />
         <Route exact path="/contacts" element={<Contact />} />
