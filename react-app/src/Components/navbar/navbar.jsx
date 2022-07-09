@@ -40,7 +40,7 @@ const Navbar = () => {
           </svg>
         </motion.div>
 
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
           {isActive && (
             <motion.div className='hamb-menu-active' initial={{ x: "100%" }} animate={{ x: 0 }} exit={{ x: "100%" }} transition={{ type: "spring", duration: 0.5 }}>
               <div className='hamb-menu-close' onClick={toggleSidebar}>
@@ -48,17 +48,31 @@ const Navbar = () => {
                   <path d="M0.891113 1.07031L24.4613 24.6405M0.891113 24.6405L24.4613 1.07031" stroke="black" strokeLinecap="square" />
                 </svg>
               </div>
-
               <div className='hamb-menu-items'>
                 <ul>
-                  <Link className='nav-link' to="/" onClick={toggleSidebar}>About me</Link>
-                  <Link className='nav-link' to="/work" onClick={toggleSidebar}>My Work</Link>
-                  <Link className='nav-link' to="/experience" onClick={toggleSidebar}>Experience</Link>
-                  <Link className='nav-link' to="/education" onClick={toggleSidebar}>Education</Link>
-                  <Link className='nav-link' to="/contacts" onClick={toggleSidebar}>Contact me</Link>
-                  <div className="button-container">
+                  <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.2 }}>
+                    <Link className='nav-link' to="/" onClick={toggleSidebar}>About me</Link>
+                  </motion.div>
+
+                  <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.25 }}>
+                    <Link className='nav-link' to="/work" onClick={toggleSidebar}>My Work</Link>
+                  </motion.div>
+
+                  <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.3 }}>
+                    <Link className='nav-link' to="/experience" onClick={toggleSidebar}>Experience</Link>
+                  </motion.div>
+
+                  <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.35 }}>
+                    <Link className='nav-link' to="/education" onClick={toggleSidebar}>Education</Link>
+                  </motion.div>
+
+                  <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.4 }}>
+                    <Link className='nav-link' to="/contacts" onClick={toggleSidebar}>Contact me</Link>
+                  </motion.div>
+                  
+                  <motion.div className="button-container" initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.45 }}>
                     <button className='nav-button'>Resume</button>
-                  </div>
+                  </motion.div>
                 </ul>
               </div>
             </motion.div>
