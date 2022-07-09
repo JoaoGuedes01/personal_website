@@ -6,8 +6,10 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+
 import { AnimatePresence } from "framer-motion";
 
+/* Importing App's Components */
 import {
   Navbar,
   Aboutme,
@@ -16,6 +18,7 @@ import {
   Education,
   Contact,
   Footer,
+  Loader,
 } from "./Components";
 
 const AnimatedRoutes = (props) => {
@@ -36,13 +39,21 @@ const AnimatedRoutes = (props) => {
 
 const App = () => {
   const [lang, setLang] = useState("eng");
+  const [loading, setLoading] = useState(true);
+
   return (
     <div>
-      <Router>
-        <Navbar />
-        <AnimatedRoutes lang={lang}/>
-        <Footer setLang={setLang} lang={lang}/>
-      </Router>
+      <AnimatePresence exitBeforeEnter>
+        {loading ? (
+          <Loader key="loader" setLoading={setLoading} />
+        ) : (
+          <Router key="router">
+            <Navbar />
+            <AnimatedRoutes lang={lang} />
+            <Footer setLang={setLang} lang={lang} />
+          </Router>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
