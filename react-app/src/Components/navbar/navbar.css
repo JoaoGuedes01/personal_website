@@ -28,11 +28,6 @@
     padding-right: 1rem;
     font-size: 20px;
     text-decoration: none;
-    color: #000000;
-}
-
-.nav-link:focus{
-    color: #6C63FF;
 }
 
 .navbar .nav-button {
@@ -45,6 +40,11 @@
     margin-left: 0.5rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.navbar .main-button-out{
+    font-size: 20px;
+    padding: 0.3rem 0.5rem;
 }
 
 .hamb{
@@ -68,6 +68,12 @@
     overflow: auto;
 }
 
+.dark-menu{
+    color: #fff;
+    box-shadow: -5px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    background-color: #0d213d;
+}
+
 .hamb-menu-items{
     display: grid;
     place-items: center;
@@ -77,11 +83,20 @@
 .hamb-menu-items ul{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 1.5rem;
 }
 
 .hamb-menu-inactive{
     display: none;
+}
+
+.hamb-menu-items ul .nav-link{
+    padding: 0; 
+}
+
+.selected {
+    color: #6C63FF;
 }
 
 
