@@ -27,6 +27,7 @@ export const data = {
         pt:"Vamos Falar",
         eng:"Let's Talk"
     },
+    latest:"personalweb"
 
 };
 

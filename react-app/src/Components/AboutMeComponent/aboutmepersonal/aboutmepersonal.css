@@ -46,6 +46,7 @@
     font-weight: 100;
     font-size: clamp(1.5em, 2vw ,2em);
     cursor: pointer;
+    z-index: 0;
 }
 
 .social-container{
@@ -168,7 +169,6 @@
 }
 
 .app-title{
-    color: #000000;
     opacity: 0.5;
 }
 
