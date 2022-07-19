@@ -39,11 +39,18 @@
 }
 
 .work-item-right-desc{
-    background-color: #000;
-    color: #fff;
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0.2rem 0.2rem rgb(59, 59, 59);
+    box-shadow: -0.2rem 0.2rem rgb(59, 59, 59);
+}
+
+.light-work-item{
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-work-item{
+    background-color: #0d213d;
 }
 
 .work-item:nth-child(even) .work-item-description{
@@ -67,6 +74,12 @@
     display: flex;
     gap: 0.3rem;
 }
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 
@@ -95,6 +108,10 @@
         max-width: 25rem;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .dark-work-item-desc {
+        background-color: #0d213d;
     }
 
     .work-item-im{

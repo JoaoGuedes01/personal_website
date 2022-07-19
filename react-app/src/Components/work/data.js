@@ -9,16 +9,17 @@ export const data = [
             eng:"Web Development"
         },
         description:{
-            pt:"Este aplicativo foi construído usando a linguagem de programação R para prever com precisão o número de visitas que um shopping teria em uma determinada semana para que as campanhas de marketing apropriadas fossem configuradas durante cada dia.",
-            eng:"This app was built using the R programming language to accurately predict the number of visits a Mall would have in a certain week so the appropriate marketing campaigns would be set up during each day."
+            pt:"Este é o meu portfolio web pessoal desenhado e construido do zero, que apresenta todos os meus projetos académicos/pessoais e informações profissionais relevantes de uma forma interativa",
+            eng:"This is my personal website/ Web application where all my personal and academic projects are stored and documented, as well as all of my professional information in an interactive way"
         },
         icon: "webdev",
-        image:"./img/personal-website.png"
+        image:"./img/personal-website.png",
+        route: "/work/personalweb"
     },
     {
         title:{
             pt:"Previsões em R",
-            eng:"R Forecasting"
+            eng:"Time Series Forecasting"
         },
         subject:{
             pt:"Machine Learning",
@@ -29,7 +30,9 @@ export const data = [
             eng:"This app was built using the R programming language to accurately predict the number of visits a Mall would have in a certain week so the appropriate marketing campaigns would be set up during each day."
         },
         icon: "ml",
-        image:"./img/rForecasting.png"
+        image:"./img/rForecasting.png",
+        route: "/work/tsf"
+
     },
     {
         title:{
@@ -45,7 +48,9 @@ export const data = [
             eng:"This app was built using the R programming language to accurately predict the number of visits a Mall would have in a certain week so the appropriate marketing campaigns would be set up during each day."
         },
         icon: "ml",
-        image:"./img/esrbpredictor.png"
+        image:"./img/esrbpredictor.png",
+        route: "/work/personalweb"
+
     },
     {
         title:{
@@ -61,6 +66,8 @@ export const data = [
             eng:"This app was built using the R programming language to accurately predict the number of visits a Mall would have in a certain week so the appropriate marketing campaigns would be set up during each day."
         },
         icon: "netinf",
-        image:"./img/loadbalancer.png"
+        image:"./img/loadbalancer.png",
+        route: "/work/personalweb"
+
     }
 ]
