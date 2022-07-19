@@ -1,9 +1,10 @@
 import React from 'react'
 import './Footer.css'
 
+import FooterSvg from './footer-svg'
 
 
-const Footer = ({ setLang, lang }) => {
+const Footer = ({ setLang, lang, setTheme, theme }) => {
 
   const handleChangeLang = () => {
     if (lang == "pt") {
@@ -13,26 +14,32 @@ const Footer = ({ setLang, lang }) => {
     }
   }
 
+  const handleChangeTheme = () => {
+    if (theme == "light") {
+      setTheme("dark")
+    } else {
+      setTheme("light")
+    }
+  }
+
   return (
     <div className='footer-margin'>
       <div className='footer-container'>
         {/* Toggle Switch Input */}
-        <div>
-          <label className="switch">
-            toggle language (dev)
-            <input onChange={handleChangeLang} type="checkbox" />
-            <span className="slider round"></span>
-          </label>
+        <div className='btn-container' >
+          <a onClick={handleChangeLang} className={theme==='light' ? "langbtn light-color" : "langbtn dark-color"} >{lang == "pt" ? "PT" : "ENG"}</a>
+          <a onClick={handleChangeTheme} className="themebtn" ><FooterSvg name={theme == "light" ? "light" : "dark"} /></a>
 
-         {/* <label className="switch">
-            <input type="checkbox" />
-            <span className="slider round"></span>
-          </label>*/}
         </div>
 
 
-        <div className='footer-message'>
-          <h5>Designed and built by João Guedes 2022</h5>
+        <div className={theme==='light' ? "footer-message light-color" : "footer-message dark-color"}>
+          {
+            lang == "eng" ?
+              <h5>Designed and built by João Guedes 2022</h5> :
+              <h5>Concebido e constuído por João Guedes 2022</h5>
+          }
+
         </div>
 
       </div>
