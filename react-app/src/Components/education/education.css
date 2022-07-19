@@ -1,11 +1,8 @@
 .education-container{
     display: flex;
-    margin-top: 5rem;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5rem;
+    margin: 5rem 20%;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 5rem;
     min-height: calc(100vh - 90px); /*whole screen height - navbar height*/
 }
@@ -19,6 +16,7 @@
     min-width: 10rem;
     border-left: 0.3rem solid;
 }
+
 
 .ed-nav li {
     cursor: pointer;
@@ -62,7 +60,8 @@
     .education-container{
         flex-direction: column;
         margin: 5rem 5%;
-    }
+        justify-content: space-evenly;
+}
 
     .ed-nav {
         max-width: 100%;

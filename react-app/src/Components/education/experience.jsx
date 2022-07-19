@@ -3,52 +3,59 @@ import './education.css'
 
 import { useState } from 'react'
 
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
+import { data } from './data-experience'
 
-const Education = () => {
-  // Courses
-  const checkmarxurl = "https://checkmarx.com"
+const Experience = (props) => {
+  let lang = props.lang
+  let theme = props.theme
 
-
-  const [toggleState, setToggleState] = useState(1);
-  const [activeIndex, setActiveIndex] = useState(1);
-
-  const ToggleTab = (index) => {
-    setToggleState(index);
-  }
+  const [toggleState, setToggleState] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <motion.div initial={{ y: "20%", opacity:0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
+    <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }} className={theme==='light' ? "light-color" : "dark-color"}>
       <div className="title-container">
-        <h1>My Experience</h1>
+        <h1>{data.title[lang]}</h1>
       </div>
 
       <div className="education-container">
         <div className="ed-nav">
           <ul >
-            <motion.li onClick={() => { setToggleState(1); setActiveIndex(1) }}> {activeIndex == 1 && <motion.span layoutId='highligh' className='highligh' />} Summer Internship for Software Engineering and Quality Assurance</motion.li>
+
+            {data.work.map((item, i) => (
+              <motion.li onClick={() => { setToggleState(i); setActiveIndex(i) }}> {activeIndex == i && <motion.span layoutId='highligh' className='highligh' />} {item.title[lang]}</motion.li>
+            ))}
+
           </ul>
         </div>
         <div className="ed-desc">
           {/* MIEGSI Tab */}
-          {toggleState == 1 &&
-            <div>
-              <h1>Summer Internship for Software Engineering and Quality Assurance</h1>
+          <AnimatePresence exitBeforeEnter>
+            <motion.div key={toggleState} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }}>
+              <h1>{data.work[toggleState].title[lang]}</h1>
               <div className="ed-details">
-                <h5>September 2018 - Present</h5>
-                <h5>University of Minho</h5>
+                <h5>{data.work[toggleState].duration[lang]}</h5>
+                <h5>{data.work[toggleState].company[lang]}</h5>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio</p>
-              <a href={checkmarxurl} className='main-button-fill'>Check it out</a>
-            </div>
-          }
+              {
+                data.work[toggleState].desc.map((item) => (
+                  <p key={item[lang]}>{item[lang]}</p>
+                ))
+              }
+
+              {
+                data.work[toggleState].companyurl &&
+                <a href={data.work[toggleState].courseurl} className={theme == "light" ? 'main-button-fill light-fill' : 'main-button-fill dark-fill'}>{data.explorebtn[lang]}</a>
+              }
+
+            </motion.div>
+          </AnimatePresence>
         </div>
       </div >
     </motion.div >
   )
 }
 
-export default Education
+export default Experience
