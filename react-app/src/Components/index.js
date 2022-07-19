@@ -6,3 +6,4 @@ export { default as Education } from "./education/education";
 export { default as Contact } from "./contact/contact";
 export { default as Footer } from "./Footer/Footer";
 export { default as Loader } from "./Loader/loader";
+export { default as WorkDetails } from "./workDetails/workDetails";
