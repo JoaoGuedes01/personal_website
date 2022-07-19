@@ -63,3 +63,39 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 }
+
+.dark-body{
+    background-color: #0A192F;
+}
+
+.light-body{
+    background-color: #fff;
+}
+
+.light-color{
+    color: #000;
+}
+
+.dark-color{
+    color: #fff;
+}
+
+.light-fill{
+    background-color: #000;
+    color: #fff;
+}
+
+.dark-fill{
+    background-color: #fff;
+    color: #000;
+}
+
+.light-out{
+    color: #000;
+    border: #000 solid 2px;
+}
+
+.dark-out{
+    color: #fff;
+    border: #fff solid 2px;
+}
