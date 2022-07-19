@@ -1,0 +1,232 @@
+.project-container{
+    margin: 2rem 10%;
+}
+
+.proj-header{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.header-tab{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 8rem;
+}
+
+.project-description p{
+    margin: 1rem 0;
+}
+
+.project-description{
+    max-width: 80%;
+}
+
+.rating-container{
+    margin: 4rem 0;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 4rem 0;
+}
+
+.rating p {
+    color: #6C63FF;
+    font-weight: 700;
+}
+
+.rating h1 {
+    font-size: 3em;
+}
+
+.aspects-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.light-divider{
+    min-height: 100%;
+    width: 2px;
+    background-color: #000;
+}
+
+.dark-divider{
+    min-height: 100%;
+    width: 2px;
+    background-color: #fff;
+}
+
+.neg-asp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.neg-asp, .pos-asp{
+    width: 50%;
+}
+
+.neg-asp p, .pos-asp p{
+    margin: 0.5rem;
+    max-width: 60%;
+}
+
+
+.btns-container{
+    margin: 4rem 0;
+}
+
+.btns-container a{
+    margin-right: 1rem;
+}
+
+.btn-container-car{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    opacity: 1;
+}
+
+.btn-container-car a{
+    cursor: pointer;
+}
+
+.btn-container-car svg{
+    width: 100%;
+    z-index: 1;
+}
+
+.img-car-container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+
+
+.img-car-container img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.car-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    z-index: 1;
+}
+
+.car-nav-item{
+    height: 1.5rem;
+    width: 3.2rem;
+    border: solid;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.tab-container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .project-container{
+        margin: 2rem 0;
+    }
+
+    .project-info{
+        margin: 5%;
+    }
+
+    .btn-container-car svg{
+        width: 75%;
+    }
+    .img-car-container{
+        height: 50vh;
+    }
+
+    .car-nav{
+        justify-content: center;
+    }
+
+    .project-description{
+        max-width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .img-car-container{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .img-car-container{
+        height: 30vh;
+    }
+
+    .aspects-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .neg-asp, .pos-asp{
+        width: 100%;
+    }
+    .car-nav-item{
+        height: 1rem;
+        width: 2.2rem;
+    }
+
+    .project-description{
+        max-width: 100%;
+    }
+
+    .neg-asp{
+    text-align: left;
+    align-items: flex-start;
+    }
+
+    .neg-asp p, .pos-asp p{
+        max-width: 100%;
+    }
+
+    
+}
+
+
+
