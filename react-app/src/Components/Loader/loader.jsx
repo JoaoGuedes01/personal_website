@@ -5,12 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 
 const Loader = ({ setLoading }) => {
-    /*useEffect(() => {
+    useEffect(() => {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
         }, 3500)
-    }, []);*/
+    }, []);
 
     return (
         <motion.div className='loader-container' initial={{ y: 0, opacity: 1 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 10, opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
