@@ -78,6 +78,10 @@
     height: auto;
 }
 
+.btn-spacing{
+    margin: 2rem 10rem;
+}
+
 
 
 /*mobile*/
@@ -85,6 +89,10 @@
     .message-container{
         margin: 0 5rem;
         margin-top: 6rem;
+    }
+
+    .btn-spacing{
+        margin: 2rem 5rem;
     }
 }
 
@@ -122,6 +130,10 @@
 @media screen and (max-width: 670px){
     .contact-container{
         flex-direction: column;
+        margin: 5%;
+    }
+
+    .btn-spacing{
         margin: 5%;
     }
 
