@@ -66,17 +66,27 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "aaaaaaaaaaaaa",
+          eng: "This is a Udemy course I went through in 2022 about Web Development, a great passion of mine, that helped me to finalize a few concepts and idead about this area.",
         },
 
         {
           pt: "",
-          eng: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          eng: "I already have quite a lot of experience in Web Development so this wasn't completely necessary for me to do but there were a few things that I got from this course that made it worth it like what are the best practices in modern 2022 Web Dev? How I should be doing things and not just how to do them.",
         },
 
         {
           pt: "",
-          eng: "c",
+          eng: "For all intents and purposes this course is enormous and it covers erverything from centering a div in css with Frontedn stuff to CRUD behaviour and safe cookie storage in the backend",
+        },
+
+        {
+          pt: "",
+          eng: "This course is more general than the others I made, not choosing 1 technology and sticking with it but cycling throgh a few of them to give the whole idea and explanation, for example it covers SQL and NoSQL databases as well as relational and non-relational databases, different forms of authentication and the secure way to it, among other examples",
+        },
+
+        {
+          pt: "",
+          eng: "I had a lot of fun completing it and I recommend it to everyone that wishes to dabble in the world of Web Development"
         },
       ],
       courseurl: "https://www.udemy.com/course/the-web-developer-bootcamp",
@@ -100,17 +110,22 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "aaaaaaaaaaaaa",
+          eng: "This course focuses on the MEAN application Stack - MongoDB/Express.js/Angular/Node.js. I already knew about this stack and how it worked but never have dove into it , being the most popular Technology Stack, I decided to do a course on it ",
         },
 
         {
           pt: "",
-          eng: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          eng: "As expected, this course teaches the best practices when going about the MEAN Stack and security measures to make sure your application is not vulnerable to common web attacks.",
         },
 
         {
           pt: "",
-          eng: "c",
+          eng: "The MEAN stack uses MongoDB as a non-relational database, Express.js as a routing technology for node.js and backend framework, Angular as the frontend framework and Node.js to power it all.",
+        },
+
+        {
+          pt: "",
+          eng: "I really enjoyed this course, its well structured and explained but after all I didn't enjoy the MEAN stack as much as I thought I would. Nowadays I much prefer MERN, which uses React instead of Angular"
         },
       ],
       courseurl:
@@ -135,17 +150,22 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "aaaaaaaaaaaaa",
+          eng: "This course taught me the basics and advanced concepts about Angular. When I started this course I had a lot of interest in Angular being the most popular framework for a very long time, so when I saw it on Udemy I bought it.",
         },
 
         {
           pt: "",
-          eng: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          eng: "The course focuses on Angular's basics and the component-based structure that all javascript frameworks seem to have. In addition to the component-based structure, javascript frameworks also have variable binding that changes DOM components based on state variables.",
         },
 
         {
           pt: "",
-          eng: "c",
+          eng: "With angular we have a lot of freedom, we don't have to worry about the DOM state ever, we have conditional rendering based on state (with ng-if) and loop based components to render multiple equal objects (with ng-for). The more advanced concepts would be storage management with cookies, local and session storage as well as routing",
+        },
+
+        {
+          pt: "",
+          eng: "In the end I enjoyed this course very much, it's very well organized and explained but, knowing other frontend frameworks now, I much prefer React for smaller projects."
         },
       ],
       courseurl: "https://www.udemy.com/course/the-complete-guide-to-angular-2",
@@ -169,17 +189,17 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "aaaaaaaaaaaaa",
+          eng: "I always had a lot of interest in all things security, it blew my mind that some people could bend machines and code to do what they wanted. So get the basic concepts and start my journey in the world of cyber security I bought this course",
         },
 
         {
           pt: "",
-          eng: "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          eng: "This course covers a lot of concepts and aspects of modern ethical hacking from Kali Linux and Linux usage in ethical hacking to internet spoofing and communication interceptioninside networks.",
         },
 
         {
           pt: "",
-          eng: "c",
+          eng: "This course also alerted me for all the dangers of the cyber space, now knowing how to do some dangerous things and how easy they are to do to someone unprotected I feel more portected than ever.",
         },
       ],
       courseurl:
