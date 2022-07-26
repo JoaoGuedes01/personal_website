@@ -11,6 +11,8 @@ import SvgsInt from './svgs-int'
 import SvgsApps from './svgs-apps'
 import SvgsSocial from './svgs-social'
 
+import { anim } from '../../animation'
+
 const Aboutmepersonal = (props) => {
 
   const [toggleState, setToggleState] = useState(1);
@@ -23,14 +25,18 @@ const Aboutmepersonal = (props) => {
   let theme = props.theme
 
   return (
-    <div className='main-personal-conatiner'>
+    <motion.div
+      className='main-personal-conatiner'
+      initial={anim.appearScroll.initial}
+      whileInView={anim.appearScroll.whileInView}
+      viewport={anim.appearScroll.viewport_details}>
       <div className='about-container'>
         <div className='about-nav'>
           <ul>
             {data.map((item) => (
-              <div key={item.id} className={theme === 'light' ? 'light-color' : 'dark-color'} onClick={() => ToggleTab(item.id)}>
+              <motion.div key={item.id} className={theme === 'light' ? (toggleState === item.id ? 'light-color selected' : 'light-color') : (toggleState === item.id ? 'dark-color selected' : 'dark-color')} onClick={() => ToggleTab(item.id)}>
                 <a className="about-item">{item.title[lang]}</a>
-              </div>
+              </motion.div>
             ))}
           </ul>
         </div>
@@ -148,7 +154,7 @@ const Aboutmepersonal = (props) => {
           ))}
         </ul>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
