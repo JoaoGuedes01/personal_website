@@ -14,10 +14,32 @@
 .header-tab{
     display: flex;
     justify-content: flex-start;
+    gap: 0.5rem 1rem;
+    max-height: 15rem;
     flex-direction: column;
-    gap: 0.5rem;
-    min-width: 8rem;
+    margin-top: 1rem;
+    overflow-y: auto;
+    min-width: 12rem;
 }
+
+.header-tab::-webkit-scrollbar {
+  width: 0.2rem;
+}
+ 
+.header-tab::-webkit-scrollbar-thumb {
+    background-color: #2f2f2f;
+    border-radius: 6px;
+}
+
+.proj-header::-webkit-scrollbar {
+    height: 0.2rem;
+  }
+   
+  .proj-header::-webkit-scrollbar-thumb {
+      background-color: #2f2f2f;
+      border-radius: 6px;
+  }
+
 
 .project-description p{
     margin: 1rem 0;
@@ -84,11 +106,23 @@
 
 
 .btns-container{
-    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0; 
+}
+.proj-links{
+    display: flex;
+
 }
 
 .btns-container a{
     margin-right: 1rem;
+}
+
+.btns-container svg{
+    height: auto;
+    min-width: 50px;
 }
 
 .btn-container-car{
@@ -156,8 +190,13 @@
 
 .tab-container{
     display: flex;
+    align-items: center;
+    justify-self: center;
     gap: 0.5rem;
+    margin-right: 0.3rem;
 }
+
+
 
 
 
@@ -227,6 +266,15 @@
 
     
 }
+
+@media screen and (max-width: 450px){
+
+    .btns-container svg{
+        width: 60px;
+    }
+}
+
+
 
 
 
