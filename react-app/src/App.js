@@ -28,7 +28,7 @@ const AnimatedRoutes = (props) => {
   const theme = props.theme;
   return (
     <AnimatePresence exitBeforeEnter>
-      <Routes location={location} key={location.key}>
+      <Routes location={location} key={location.key} >
         <Route exact path="/" element={<Aboutme lang={lang} theme={theme} />} />
         <Route
           exact
@@ -63,7 +63,7 @@ const AnimatedRoutes = (props) => {
 const App = () => {
   const [lang, setLang] = useState("eng");
   const [theme, setTheme] = useState("light");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   return (
     <div
