@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import Svgs from './svgs'
 
 import { data } from './data'
+import { anim } from '../animation'
+
 
 
 const Contact = (props) => {
@@ -11,7 +13,12 @@ const Contact = (props) => {
   let theme = props.theme
 
   return (
-    <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }} className={theme === 'light' ? 'light-color ctc-ctnr' : 'dark-color ctc-ctnr'}>
+    <motion.div
+      initial={anim.pageTransition.initial}
+      animate={anim.pageTransition.animate}
+      exit={anim.pageTransition.exit}
+      transition={anim.pageTransition.transition}
+      className={theme === 'light' ? 'light-color ctc-ctnr' : 'dark-color ctc-ctnr'}>
       <div className="title-container">
         <h1> {data.pageTitle[lang]}</h1>
       </div>
