@@ -13,11 +13,12 @@
     margin-left: 5%;
     margin-right: 5%;
     gap: 5rem 0rem;
+    min-height: calc(100vh - 90px); /*whole screen height - navbar height*/
 }
 
 .work-item{
     display: flex;
-    max-width: 60rem;
+    max-width: 70rem;
     justify-content: center;
     align-items: center;
     margin: 0 2rem;
@@ -75,10 +76,73 @@
     gap: 0.3rem;
 }
 
+.work-item:nth-child(even) .project-type{
+    flex-direction: row-reverse;
+}
+
 .nav-link{
     text-decoration: none;
     color: inherit;
 }
+
+.filter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.filter{
+    display: flex;
+    gap: 4rem;
+    max-width: 70rem;
+    align-items: center;
+    width: 100%;
+}
+
+.filter select {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: 'Roboto';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filter-btn-light {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.filter-btn-dark {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.selected-btn-light{
+    background-color: #000;
+    color: #fff;
+}
+
+.selected-btn-dark{
+    background-color: #fff;
+    color: #000;
+}
+
+.projtype{
+    display: flex;
+    gap: 1rem;
+}
+
 
 
 
@@ -148,6 +212,17 @@
         flex-direction: row-reverse;
     }
 
+    .work-item:nth-child(even) .project-type{
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .filter{
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 
