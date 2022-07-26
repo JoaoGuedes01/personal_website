@@ -3,14 +3,19 @@ import Aboutme from './aboutme/aboutme'
 import Aboutmepersonal from './aboutmepersonal/aboutmepersonal'
 
 import { motion } from 'framer-motion'
+import { anim } from '../animation'
 
 const AboutmeComponent = (props) => {
   return (
     <div>
-      <motion.div initial={{ y: "20%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "-20%", opacity: 0 }} transition={{ type: "spring", duration: 0.5 }}>
-        <Aboutme lang={props.lang} theme={props.theme}/>
+      <motion.div
+        initial={anim.pageTransition.initial}
+        animate={anim.pageTransition.animate}
+        exit={anim.pageTransition.exit}
+        transition={anim.pageTransition.transition}>
+        <Aboutme lang={props.lang} theme={props.theme} />
+        <Aboutmepersonal lang={props.lang} theme={props.theme} />
       </motion.div>
-      <Aboutmepersonal lang={props.lang} theme={props.theme}/>
     </div>
   )
 }
