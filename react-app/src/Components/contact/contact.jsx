@@ -12,6 +12,10 @@ const Contact = (props) => {
   let lang = props.lang
   let theme = props.theme
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
+
   return (
     <motion.div
       initial={anim.pageTransition.initial}
