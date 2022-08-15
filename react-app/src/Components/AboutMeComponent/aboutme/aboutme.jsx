@@ -2,6 +2,7 @@
 import React from 'react'
 import './aboutme.css'
 import { Link } from 'react-router-dom'
+import Typewriter from 'typewriter-effect';
 
 // Container Content
 import { data } from './data'
@@ -26,7 +27,18 @@ const Aboutme = (props) => {
           <h5>{data.greet[lang]}</h5>
         </div>
         <h1>{data.intro[lang]}</h1>
-        <h2>{data.titles[lang]}</h2>
+        <h2>
+
+          <Typewriter
+            options={{
+              strings: data.titles[lang],
+              pauseFor: 1000,
+              autoStart: true,
+              loop: true,
+              delay: 35
+            }}
+          />
+        </h2>
         <p>{data.p1[lang]}</p>
         <p>{data.p2[lang]}</p>
         <div className="main-button-container">
@@ -35,7 +47,7 @@ const Aboutme = (props) => {
           </button>
           <button className={theme == "light" ? 'main-button-fill light-fill' : 'main-button-fill dark-fill'}>
             <Link className='nav-link' to={{ pathname: '/contacts' }}>{data.btnContact[lang]}</Link>
-            </button>
+          </button>
         </div>
       </div>
       <div className="main-im-container">
