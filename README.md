@@ -1,2 +1,2 @@
 # personal_website
-This repo is meant for all the progress I do in my own personal web application
+This is the Repository for my own Personal Website project. I've been working on it for a while and learned a lot. I'm sharing what I learned with everyone by choosing to make my code public I only ask in return that you do not steal it for your own and be original. If you decide to use my project as a base for your own do not forget to tag this repo anywhere so to give me credit. Thank you :)
