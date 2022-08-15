@@ -44,10 +44,15 @@ const Aboutmepersonal = (props) => {
           <AnimatePresence exitBeforeEnter>
             {/* Description Tab */}
             {toggleState === 1 &&
-              <motion.div key={"abc1"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }} >
-                <h1 className='about-title'>{data[0].description.title[lang]}</h1>
-                <p className='about-p'>{data[0].description.p1[lang]}</p>
-                <p className="about-p">{data[0].description.p2[lang]}</p>
+              <motion.div className='about-desc-container' key={"abc1"} initial={{ x: 10, opacity: 0 }} animate={{ x: 0, opacity: 1 }} exit={{ x: -10, opacity: 0 }} transition={{ type: "spring", duration: 0.15 }} >
+                <div>
+                  <h1 className='about-title'>{data[0].description.title[lang]}</h1>
+                  <p className='about-p'>{data[0].description.p1[lang]}</p>
+                  <p className="about-p">{data[0].description.p2[lang]}</p>
+                </div>
+                <div className='profile-container'>
+                  <img src="/profile.png" className={theme === 'light' ? 'profile-img-light':'profile-img-dark'} />
+                </div>
               </motion.div>
             }
             {/* Soft Skills Tab */}

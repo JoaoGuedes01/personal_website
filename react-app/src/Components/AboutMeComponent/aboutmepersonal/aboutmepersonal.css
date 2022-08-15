@@ -18,7 +18,7 @@
 }
 
 .about-info{
-    width: 40em;
+    width: 60em;
     margin: 1rem;
 }
 
@@ -170,6 +170,32 @@
     opacity: 0.5;
 }
 
+.about-desc-container{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.profile-img-light{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0.6rem 0.6rem 0 1px #000;
+}
+
+.profile-img-dark{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0.6rem 0.6rem 0 1px #fff/* All the borders by using the spread properties */
+}
+
+.profile-container{
+    height: 100%;
+    margin: 1rem;
+}
+
+
 
 
 
@@ -187,6 +213,19 @@
 
     .about-info{
         margin-right: 5%;
+    }
+
+    .about-desc-container{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .profile-img{
+        width: 80%;
+    }
+
+    .profile-container{
+        display: flex;
+        justify-content: center;
     }
 }
 
