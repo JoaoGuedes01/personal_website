@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 /* Project Images */
 
 import { data } from './data'
+import { typelist } from './data'
 import { commondata } from '../common'
 import SvgsIcons from './svgs-icons'
 
@@ -16,22 +17,6 @@ const Work = (props) => {
   let theme = props.theme
   const [projsub, setProjsub] = useState("All")
 
-  const options = [
-    "All",
-
-
-    "Web Development",
-
-
-    "Machine Learning",
-
-
-    "Networking",
-
-
-
-
-  ]
 
   const handleSelect = (event) => {
     setProjsub(event.target.value)
@@ -51,7 +36,7 @@ const Work = (props) => {
           <div className="filter">
             <select onChange={handleSelect}>
               {
-                options.map((option) => (
+                typelist.map((option) => (
                   <option >
                     {option}
                   </option>

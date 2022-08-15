@@ -74,6 +74,7 @@
 .project-type{
     display: flex;
     gap: 0.3rem;
+    align-items: center;
 }
 
 .work-item:nth-child(even) .project-type{
