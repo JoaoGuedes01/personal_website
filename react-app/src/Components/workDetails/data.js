@@ -1655,8 +1655,1309 @@ export const data = [
       "isi9.png",
       "isi10.png",
     ],
-    git: "https://github.com/JoaoGuedes01/dividas",
-    deploy: "https://dividas.joaoguedes01.repl.co/",
+    git: "https://github.com/JoaoGuedes01/ISI-IntegratedApp",
+    deploy: "https://isi-integratedapp.joaoguedes01.repl.co/",
     yt: "https://www.youtube.com/watch?v=f_Q1Jtap5WI",
   },
+  /*******************************************************************  Titanic *******************************************************************/
+  {
+    id: "titanic",
+    title: {
+      pt: "SP Mobile",
+      eng: "Titanic Kaggle",
+    },
+    context: [
+      {
+        icon: "ml",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Machine Learning",
+        },
+      },
+      {
+        icon: "personal",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Personal Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "python",
+        label: "Python",
+      },
+      {
+        icon: "jupyter",
+        label: "Jupyter Notebooks",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Project",
+      },
+    ],
+    duration: {
+      year: 2021,
+      timelen: {
+        pt: "1 week",
+        eng: "1 semana",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "I wanted to get familiar with machine learning since I was going to be taking some classes on it so I decided to try and do a Kaggle Challenge. The most well-known one out there was the Titanic so I figured I'd have great online support and it would be, an overall, good experience",
+      },
+
+      {
+        pt: "",
+        eng: "I used all the great practices for machine learning such as the Grid Search for hyperparameter tuning and cross-validation to be able to choose a model with a lot more certainty.",
+      },
+      {
+        pt: "",
+        eng: "In the end this was a pretty simple project but with hard concepts to grasp. Overall I loved the time I spent researching this topic and writting my own solution.",
+      },
+      {
+        pt: "",
+        eng: "I submitted my answers to Kaggle and got a 75% that I'm happy with. This was my first experience with machine learning and it left a great impression on me. It took me from programming to math and back to programming all while I watched my precision scores increasing with each new idea I had. It was very fun and I can't wait for my next Data Science/Machine Learning Project",
+      },
+    ],
+    chall: [
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "I never dabbled in machine learning before so this was new and challenging",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "All the research I made seemed pretty irrelevant with so many names and terminology",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Statistics are a gib part of Data Science which was a surprise for me",
+      },
+    ],
+    rate: 9,
+    ratelabel: "Almost Perfect",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "Learned a lot about Data Science",
+      },
+      {
+        pt: "",
+        eng: "Finally dipped my toes in Machine Learning",
+      },
+      {
+        pt: "",
+        eng: "Understood the relationships between Data Science/Machine Learning and Statistics",
+      },
+      {
+        pt: "",
+        eng: "Really rewarding and important project since it touches on every aspect of Machine Learning for beginners",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "Very hard concepts to wrap your head around at first",
+      },
+      {
+        pt: "",
+        eng: "Too many models, weird terminology and technologies/libraries",
+      },
+      {
+        pt: "",
+        eng: "You need to freshen' up on your Statistical Knowledge",
+      },
+      {
+        pt: "",
+        eng: "There is no 'correct' way of carrying out a Machine Learning project which left me lost sometimes",
+      },
+      {
+        pt: "",
+        eng: "The end result could be improved",
+      },
+    ],
+    img: [
+      "titanic1.png",
+      "titanic2.png",
+      "titanic3.png",
+      "titanic4.png",
+      "titanic5.png",
+      "titanic6.png",
+    ],
+    git: "https://github.com/JoaoGuedes01/SDFinal",
+  },
+
+  /*******************************************************************  guedesDB *******************************************************************/
+  {
+    id: "guedesdb",
+    title: {
+      pt: "SP Mobile",
+      eng: "guedesDB",
+    },
+    context: [
+      {
+        icon: "softdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Software Development",
+        },
+      },
+      {
+        icon: "personal",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Personal Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "nodejs",
+        label: "Node.js",
+      },
+      {
+        icon: "js",
+        label: "JavaScript",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Project",
+      },
+    ],
+    duration: {
+      year: 2021,
+      timelen: {
+        pt: "1 week",
+        eng: "1 semana",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "guedesDB is a lightweight Node.js library that offers a very simple database with CRUD and id functionality. I thought about it and most databases are really overkill for small applications and there is a lot of boilerplate connections and code that is unnecessary.",
+      },
+      {
+        pt: "",
+        eng: "guedesDB was born out of the challenge and the thought that I could take the simplest aspects of a database and replicate them in JavaScript as a nodejs dependency.",
+      },
+      {
+        pt: "",
+        eng: "The result is a very simple file system that allows developers to store data in gds files (guedes format) in an automatically created folder structure. guedesDB is completely abstracted and only exposes basic and intuitive commands to create, read, update and delete objects from the database.",
+      },
+      {
+        pt: "",
+        eng: "As an extra I also implemented hosting, so you can host the database locally inside a project or globally for all your node projects to access.",
+      },
+    ],
+    chall: [
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Messing with the file system in Node was challenging at first",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "The concept of a database is so simple that it is hard to inovate",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "The Id functionality and differentiation was a nightmare",
+      },
+    ],
+    rate: 10,
+    ratelabel: "Loved It",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "Got to make something from scratch without external libraries",
+      },
+      {
+        pt: "",
+        eng: "I was able to achieve my goal of a simpler and easier to use local database",
+      },
+      {
+        pt: "",
+        eng: "guedesDB is available for download in the Node Package Manager (npm)",
+      },
+      {
+        pt: "",
+        eng: "Rewritting existing technologies is always a very fun and rewarding experience and it makes you appreciate the work that other people have done.",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "gds files are just JSON files in 'disguise'",
+      },
+      {
+        pt: "",
+        eng: "There are some things that, probably, could be optimized",
+      },
+    ],
+    img: ["guedesdb1.png", "guedesdb2.png", "guedesdb3.png", "guedesdb4.png"],
+    git: "https://github.com/JoaoGuedes01/SDFinal",
+    deploy: "https://www.npmjs.com/package/guedesdb",
+  },
+  /*******************************************************************  TicTacBoom *******************************************************************/
+  {
+    id: "tictac",
+    title: {
+      pt: "SP Mobile",
+      eng: "TicTacBoom",
+    },
+    context: [
+      {
+        icon: "webdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Web Development",
+        },
+      },
+      {
+        icon: "softdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Software Development",
+        },
+      },
+      {
+        icon: "personal",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Personal Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "nodejs",
+        label: "Node.js",
+      },
+      {
+        icon: "js",
+        label: "JavaScript",
+      },
+      {
+        icon: "react",
+        label: "React",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Project",
+      },
+    ],
+    duration: {
+      year: 2021,
+      timelen: {
+        pt: "1 day",
+        eng: "1 dia",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "TicTacBoom is a game meant to be played in gatherings of friends and to pass the time. It's simple concept allows everyone to join in and has no player limit.",
+      },
+      {
+        pt: "",
+        eng: "I always enjoyed this game but it's a chore having to take it anywhere and set it up on a table. That's when I thought that the concept was so simple it would only take a couple of minutes to create the logic and make it available online for eveyone to play.",
+      },
+      {
+        pt: "",
+        eng: "The way the game works is we roll a die (that gives us either tic, tac or boom), pick a card (that gives us a random letter of the alphabet or a random common syllable in pt/eng words) and we start the bomb.",
+      },
+      {
+        pt: "",
+        eng: "If we get Tic we must say words that start with the letter from the picked card",
+      },
+      {
+        pt: "",
+        eng: "If we get Tac we must say words that end with the letter from the picked card",
+      },
+      {
+        pt: "",
+        eng: "If we get Boom we must say words that have the letter from the picked card anywhere",
+      },
+      {
+        pt: "",
+        eng: "The game starts by creating the rules (rolling the die and picking the card) and as soon as the bomb starts players take turns passing the bomb around. When a player has the bomb they have to say a word that obeys the set rules in order to pass it along. The player that still has the bomb when it explodes loses. The timer on this bomb is set to a random value on an interval to make things interesting and not predictable",
+      },
+    ],
+    chall: [
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "I had no real challenges while making this project since everything that I used was used because I already was quite conforable with and used them before",
+      },
+    ],
+    rate: 10,
+    ratelabel: "Loved It",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "Really enjoyed how the development of this project was error-free and there were no delays or 'hiccups' because of lack of knowledge/experience",
+      },
+      {
+        pt: "",
+        eng: "I was able to achieve my goal of creating a more convient version of this game meant to be played with just a phone",
+      },
+      {
+        pt: "",
+        eng: "It's a great addition to the portfolio since it's a complete solution to solve an existing problem",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "User Interface could be a lot better since, at the time, I had no experience/interest in it",
+      },
+      {
+        pt: "",
+        eng: "The alphabet roster could be shorter since there are a lot of words that do not end with 'z' for example",
+      },
+      {
+        pt: "",
+        eng: "The syllable list could be a lot more optimized to work with more words",
+      },
+    ],
+    img: [
+      "tictac1.png",
+      "tictac2.png",
+      "tictac3.png",
+      "tictac4.png",
+      "tictac5.png",
+    ],
+    git: "https://github.com/JoaoGuedes01/tictacboom",
+    deploy: "https://tictacboom.joaoguedes01.repl.co",
+  },
+  /*******************************************************************  BracelHertz *******************************************************************/
+  {
+    id: "bracelhertz",
+    title: {
+      pt: "BracelHertz",
+      eng: "BracelHertz",
+    },
+    context: [
+      {
+        icon: "webdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Web Development",
+        },
+      },
+      {
+        icon: "softdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Software Development",
+        },
+      },
+      {
+        icon: "harddev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Hardware Development",
+        },
+      },
+      {
+        icon: "academic",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Academic Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "java",
+        label: "Java",
+      },
+      {
+        icon: "spring",
+        label: "Spring Boot",
+      },
+      {
+        icon: "arduino",
+        label: "Arduino",
+      },
+      {
+        icon: "heroku",
+        label: "Heroku",
+      },
+      {
+        icon: "html",
+        label: "HTML",
+      },
+      {
+        icon: "css",
+        label: "CSS",
+      },
+      {
+        icon: "js",
+        label: "Javascript",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Backend Server and Logic",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Spring Boot Configuration and Research",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Hardware and Arduino Programming",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Arduino Connection to Spring",
+      },
+      {
+        pt: "",
+        eng: "Wristband Design and Modeling",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Stack and App Deployment",
+      },
+    ],
+    duration: {
+      year: 2020,
+      timelen: {
+        pt: "1 semestre",
+        eng: "1 semester",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "In my class of Development of Computer Applications we were tasked to deliver a solution that would help the Portuguese Prison System that partnered with the University.",
+      },
+      {
+        pt: "",
+        eng: "While meeting with a representative it came to our attention that the prison system has a big suicidal issue. Knowing this we decided to make this the theme for our class project.",
+      },
+      {
+        pt: "",
+        eng: "After much research we found many papers and proof that linked certain patterns of anomal heart rates and suicides/suicidal attempents. Knowing this we decided that we wanted our solution to be able to measure the heartbeat patterns of inmates that were considered 'risky'.",
+      },
+      {
+        pt: "",
+        eng: "To do this we developed a dashboard for all of the prison staff and divided it by roles since it was explained to us that there were operacional staff followd by Supervisores followe by the Prison Director(s). Each of these entities has their level of permissions inside our system and we have a number of thought-out failsafes implemented in case of mistakes and credential losses.",
+      },
+      {
+        pt: "",
+        eng: "We also developed a wristband capable of recording an inmate's heartbeat and send it in real time directly to our servers so the staff can accompany it through the online interface. Our system will automatically send risk alerts with a strict ruleset based on the research we had done.",
+      },
+      {
+        pt: "",
+        eng: "The details about permissions and other features about our application can be found in the video of this project.",
+      },
+      {
+        pt: "",
+        eng: "I really enjoyed this project, I was still very new to web development and it was a very rewarding system. Our teacher seemed to share this feeling as she gave us full marks for the project (20/20).",
+      },
+    ],
+    chall: [
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Learning Spring Boot from scratch and without help and classes",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Configuring and programming an arduino micro-controller for the first time and from scratch was also very challenging",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Linkning the arduino board and the Spring Boot System was not easy",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Adapting Web programming (backend) from functional to Object Oriented seemed like a step backwards",
+      },
+    ],
+    rate: 9,
+    ratelabel: "Almost Perfect",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "I really enjoyed learning Spring Boot for the first time",
+      },
+      {
+        pt: "",
+        eng: "Programming an Arduino board was very fun and exciting",
+      },
+      {
+        pt: "",
+        eng: "Got to work with Hardware and 3d Modeling for the first time",
+      },
+      {
+        pt: "",
+        eng: "Seeing everything connected and working was a very rewarding experience",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "Very ambitious project for a beginner level Web Development Project",
+      },
+      {
+        pt: "",
+        eng: "No support from our teacher, we were on our own with almost no experience in web",
+      },
+      {
+        pt: "",
+        eng: "Overwhelming ammount of technologies/techniques and options to choose while developing something like this",
+      },
+    ],
+    img: [
+      "brac1.png",
+      "brac2.png",
+      "brac3.png",
+      "brac4.png",
+      "brac5.png",
+      "brac6.png",
+      "brac7.png",
+      "brac8.png",
+    ],
+    git: "https://github.com/JoaoGuedes01/BracelHertz",
+    deploy: "https://bracelhertz.herokuapp.com/",
+    yt: "https://www.youtube.com/watch?v=-Cp5I06yuSc",
+  },
+  /*******************************************************************  Press&Play *******************************************************************/
+  {
+    id: "pressplay",
+    title: {
+      pt: "Press&Play",
+      eng: "Press&Play",
+    },
+    context: [
+      {
+        icon: "webdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Web Development",
+        },
+      },
+      {
+        icon: "softdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Software Development",
+        },
+      },
+      {
+        icon: "academic",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Academic Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "nodejs",
+        label: "Node & Express.js",
+      },
+      {
+        icon: "js",
+        label: "JavaScript",
+      },
+      {
+        icon: "html",
+        label: "HTML",
+      },
+      {
+        icon: "css",
+        label: "CSS",
+      },
+      {
+        icon: "mysql",
+        label: "MySQL",
+      },
+      {
+        icon: "googleapi",
+        label: "Google API",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Backend Server and Logic",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Node.js and Express.js Configuration and Research",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Google API Configuration and Research",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Stack and e2e configuration",
+      },
+      {
+        pt: "",
+        eng: "App Deployment",
+      },
+      {
+        pt: "Aplicação Completa",
+        eng: "PWA Implementation",
+      },
+    ],
+    duration: {
+      year: "2019 / 2020",
+      timelen: {
+        pt: "1 semestre",
+        eng: "1 semester",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "It was in my class of Web Development that my journey and interest in Web Development started. In this class we learned a lot about servers, Tech Stacks, different technologies and we had a lot of support from the teachers.",
+      },
+      {
+        pt: "",
+        eng: "This class focused almost solely in JavaScript HTML and CSS leaving all the frameworks and fancy things for us to discover on our own. If I never had been taught the fundamentals of Web Development with HTML CSS and JavaScript I would probably never tried or even searched for frameworks like React, Next.js, Angular, Vue.js, among others or even tried them. ",
+      },
+      {
+        pt: "",
+        eng: "For my project in this class my team was tasked with building a PWA (Among 6+ teams in each class only one was tasked with the PWA) application for booking and scheduling football matches in football fields all across Portugal.",
+      },
+      {
+        pt: "",
+        eng: "Our app had social features such as friend requests, notifications and chat in addition to having the ability of booking, searching and checking availability for specific hours and intervals of time in any of the available football fields.",
+      },
+      {
+        pt: "",
+        eng: "The other teams in our class got projects like 'Fields Administrator', which handled the fields, and our server communicated with theirs to get the list of fields and their specifications.",
+      },
+      {
+        pt: "",
+        eng: "We used MySQL for the Database since we were learning it in the DataBases class, so we built a model and implemented it in our server with sequelize",
+      },
+      {
+        pt: "",
+        eng: "To top it all off we impplemented authentication via normal credentials (email/password with email verification when registering) or with Google's API. (Log In with Google).",
+      },
+      {
+        pt: "",
+        eng: "The app was deployed on Heroku and we were pretty pleased with the result and so was our teacher giving us full marks (20/20) and awakening my interest in Web Development.",
+      },
+    ],
+    chall: [
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "Learning Web Development for the first time",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "With no experience these are pretty hard concepts",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "It was the first project I did that mixed multiple classes I was having or ever had",
+      },
+      {
+        pt: "Aprender design moderno e responsivo, não tendo qualquer tipo de experiência neste campo",
+        eng: "The concept of Web APIs was really new to me and the Google API was a nightmare to implement with online tutorials and guides",
+      },
+      {
+        pt: "",
+        eng: "The deployment of the app was another nightmare since we did not know what we were doing yet",
+      },
+      {
+        pt: "",
+        eng: "Integrating our project with the rest of the other teams' projects was nearly impossible, we all had different opinions on how things should tie together, it was very hard",
+      },
+      {
+        pt: "",
+        eng: "We had to scrap the chat feature since implementing socket.io on top of the stress of everything else would halt or destroy everything we had made",
+      },
+    ],
+    rate: 9,
+    ratelabel: "Almost Perfect",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "I really enjoyed learning Web Development for the first time",
+      },
+      {
+        pt: "",
+        eng: "One of the most important project I ever worked on in University",
+      },
+      {
+        pt: "",
+        eng: "Gave me the foundations for what I can do today weahter it is in terms of skill or in terms of interest",
+      },
+      {
+        pt: "",
+        eng: "Very rewarding and fit project since, as I said, we were developing the app and having a Databases class at the same time",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "Really hard concepts to understand having no experience on the matter",
+      },
+      {
+        pt: "",
+        eng: "It is an area that only works if you have interest and put in the time to learn",
+      },
+      {
+        pt: "",
+        eng: "Working as a large team on this project proved to be pretty challenging",
+      },
+    ],
+    img: [
+      "pressplay1.png",
+      "pressplay2.png",
+      "pressplay3.png",
+      "pressplay4.png",
+      "pressplay5.png",
+      "pressplay6.png",
+      "pressplay7.png",
+      "pressplay8.png",
+      "pressplay9.png",
+    ],
+    git: "https://github.com/ruigomes99/press-and-play",
+    deploy: "https://press-and-play.herokuapp.com/",
+  },
+  /*******************************************************************  TSG *******************************************************************/
+  {
+    id: "tsg",
+    title: {
+      pt: "WorldWide BI",
+      eng: "WorldWide BI",
+    },
+    context: [
+      {
+        icon: "datascn",
+        label: {
+          pt: "Data Science",
+          eng: "Data Science",
+        },
+      },
+      {
+        icon: "academic",
+        label: {
+          pt: "Projeto Académico",
+          eng: "Academic Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "java",
+        label: "Java",
+      },
+      {
+        icon: "mysql",
+        label: "MySQL"
+      },
+      {
+        icon: "talend",
+        label: "Talend Open Studio",
+      },
+      {
+        icon: "tableau",
+        label: "Tableau",
+      }
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Exploratory Data Analysis"
+      },
+      {
+        pt:"",
+        eng: "Data exploration and subject research"
+      },
+      {
+        pt:"",
+        eng: "Data Warehouse conception and Design"
+      },
+      {
+        pt:"",
+        eng: "Data Pre-Processing and correction"
+      },
+      {
+        pt:"",
+        eng: "ETL Process and Data Warehouse Population"
+      },
+      {
+        pt:"",
+        eng: "Tableau exploration and Dashboard design/implementation"
+      }
+    ],
+    duration: {
+      year: "2020 / 2021",
+      timelen: {
+        pt: "1 semestre",
+        eng: "1 semester",
+      },
+    },
+    desc: [
+      {
+        pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+        eng: "In my Management Support Technologies I had my first encounter with Data Science and I immediately fell in love with the concept of being able to look at 1 million lines of data and not only understanding it but also withdraw useful information."
+      },
+      {
+        pt: "",
+        eng: "For our project (me and my team) we had 3 datasets, each containing roughly 1 million observations a refering to a different Natural Disaster (Earthquakes, Tsunamis or Volcanic Eruptions)."
+      },
+      {
+        pt:"",
+        eng: "The first thing we did, and also the most tedious, was to explore and study these datasets. Every attribute and every line of code was inspected with the help of Talend Data Quality"
+      },
+      {
+        pt:"",
+        eng: "Having identified the problematic data we set out to design and develop a Data Warehouse to store all that data using MySQL as a Multidimensional Model. Our Data Warehouse uses the Slow Changing Dimension concept where the Dimension Tables are able to be updated dynamically without needing to re-populate the Data Warehouse"
+      },
+      {
+        pt: "",
+        eng: "We, then, proceeded to develop the ETL scripts in Java using Talend for Data Integration where we corrected all the null and empty values replacing them with the last value of our number/alphabetic pattern (ex: scale 1-10, null values : 99) "
+      },
+      {
+        pt: "",
+        eng: "After the Data Warehouse was populated and the data clean we built a few View Tables for a better analysis in Tableau"
+      },
+      {
+        pt:"",
+        eng:"To end the project we designed and implemented a few dashboards that let us explore our View Tables and experience the Big Data from all the datasets."
+      },
+      {
+        pt:"",
+        eng:"I really enjoyed working on this project and witnessing that meaningless data make more and more sense. Our teacher was very happy with our work giving us full marks for the project (20/20)."
+      }
+      
+    ],
+    chall: [
+      {
+        pt:"",
+        eng:"Data Science was a very challenging field to go blindly"
+      },
+      {
+        pt:"",
+        eng:"I had to revisit a lot of statistics techniques and knowledge for the EDA, most of which was forgotten"
+      },
+      {
+        pt:"",
+        eng:"It's really hard to decide when the EDA is done"
+      },
+      {
+        pt:"",
+        eng: "Designing the Data Warehouse with no experience was very tough"
+      },
+      {
+        pt:"",
+        eng:"The ETL process was very hard at first, and time consuming with a lot of errors and tweaks"
+      },
+      {
+        pt:"",
+        eng:"Learning Tableau and how to create dashboards was very challenging at first. We created the View Tables to make it easier"
+      }
+    ],
+    rate: 8,
+    ratelabel: "Pretty Good",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "I already had some curiosity regarding Big Data and Data Science and here I got the opportunity to experience those concepts",
+      },
+      {
+        pt: "",
+        eng: "One of the most important project I ever worked on in University",
+      },
+      {
+        pt: "",
+        eng: "Gave me the foundations for the knowledge and interest I have in Data Science fields",
+      },
+      {
+        pt: "",
+        eng: "Very rewarding project and a very realistic depiction of how woriking in this area will/would be like in the real world",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "Really hard concepts to understand having no experience on the matter",
+      },
+      {
+        pt: "",
+        eng: "Not a lot of clear and clean online support for Data Warehousing and complete guides",
+      },
+      {
+        pt: "",
+        eng: "Working as a large team on this project proved to be pretty challenging",
+      },
+    ],
+    img: [
+      "tsg1.png",
+      "tsg2.png",
+      "tsg3.png",
+      "tsg4.png",
+      "tsg5.png",
+      "tsg6.png",
+      "tsg7.png",
+      "tsg8.png",
+      "tsg9.png",
+      "tsg10.png",
+    ],
+    yt:"https://www.youtube.com/watch?v=Y-PI2xwVct4"
+  },
+    /*******************************************************************  FafenseAD *******************************************************************/
+    {
+      id: "fafensead",
+      title: {
+        pt: "Aventura do Fafense",
+        eng: "Fafense Adventure",
+      },
+      context: [
+        {
+          icon: "gamedev",
+          label: {
+            pt: "Data Science",
+            eng: "Game Development",
+          },
+        },
+        {
+          icon: "softdev",
+          label: {
+            pt: "Data Science",
+            eng: "Software Development",
+          },
+        },
+        {
+          icon: "ux/ui",
+          label: {
+            pt: "Data Science",
+            eng: "UX/UI",
+          },
+        },
+        {
+          icon: "personal",
+          label: {
+            pt: "Projeto Académico",
+            eng: "Personal Project",
+          },
+        },
+      ],
+      tech: [
+        {
+          icon: "cs",
+          label: "C#",
+        },
+        {
+          icon: "unity",
+          label: "Unity"
+        },
+        {
+          icon: "ps",
+          label: "Adobe Photoshop",
+        }
+      ],
+      roles: [
+        {
+          pt: "Projeto Completo",
+          eng: "Entire Project"
+        }
+      ],
+      duration: {
+        year: "2020",
+        timelen: {
+          pt: "1 mês",
+          eng: "1 month",
+        },
+      },
+      desc: [
+        {
+          pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+          eng: "This project started out as a practical joke, but slowly evolved into an opportunity for me to actually develop a game with real game-art and mechanics. Games always were a huge part of my life and in University, knowing how to program better than I ever did, I decided to try and tackle a Game Development Project more seriously."
+        },
+        {
+          pt:"",
+          eng: "This game is a basic platformer with small/long/wall jumps and running mechanics built from scratch. These mechanics are explored across 5 different levels each with their own interactions and art direction. Being a complete beginner a platformer was my first and safest choice when making this game."
+        },
+        {
+          pt:"",
+          eng: "The game follows a 'super mario-like' structure where if you get to a certain checkpoint in the end of a level you finish it and move along to the next one as well as a very bare-bones save/load system where you get a code after finishing a level which you can then use to load that same level instead of having to beat the whole game. This load mechanism was implemented given that I wanted it to be playable only in a browser." 
+        },
+        {
+          pt:"",
+          eng: "After many hours of work and many more in reasearch and trial/error I was finally able to 'finish' this game, that was never meant to be a real thing, and deploy it in the internet for everyone to play and I'm pretty happy with the result."
+        }
+        
+      ],
+      chall: [
+        {
+          pt:"",
+          eng:"Developing a game from scratch is very hard"
+        },
+        {
+          pt:"",
+          eng:"Learning Unity on the fly without a real vision for my game was pretty challenging"
+        },
+        {
+          pt:"",
+          eng:"Creating the Art and Animations for the game was much more time consuming than I thought initially."
+        },
+        {
+          pt:"",
+          eng: "Designing and creating the Levels (Good or even Average Levels) is an art in itself, which I severely underestimated"
+        },
+        {
+          pt:"",
+          eng:"Converting the final build to WegGL and integrating it in an actual HTML file was very hard and almost made me give up entirely in the final stage of the project"
+        }
+      ],
+      rate: 8,
+      ratelabel: "Pretty Good",
+      pos: [
+        {
+          pt: "",
+          eng: "Really fun project",
+        },
+        {
+          pt: "",
+          eng:" I learned a lot about Game Development and what is needed to make a game"
+        },
+        {
+          pt: "",
+          eng: "Made me gain a lot of respect and appreciation for the people who created the games I love because I struggled to make this bad little one",
+        },
+        {
+          pt: "",
+          eng: "Making a game is the perfect excuse to practice and exercise one's creative, artistic and progrmming abilities",
+        },
+        {
+          pt: "",
+          eng: "Creating a game is such a complex and envolved process that you end up learning a lot about so much more than just programming a game",
+        },
+      ],
+      neg: [
+        {
+          pt: "",
+          eng: "Really ambitious project to pull of in a month with no experience",
+        },
+        {
+          pt: "",
+          eng: "I started this game with no vision either functionally or artisticly, always hoping I would find it along the way. That's a recipe for disaster when making a game",
+        },
+        {
+          pt: "",
+          eng: "Learning to create a game has less to do with knowing how to program and more to having the complete set of skills (art/creativity/programming) and adapting each skill to your overall level of mastery.",
+        },
+        {
+          pt:"",
+          eng:"The reasons I listed above contributed for this project being, at times, very overwhelming and making me doubt my skills a lot. Of all the project I worked on to this day, game development is the area that creates this effect the most"
+        }
+      ],
+      img: [
+        "fafensead1.png",
+        "fafensead2.png",
+        "fafensead3.png",
+        "fafensead4.png",
+        "fafensead5.png",
+        "fafensead6.png",
+        "fafensead7.png",
+        "fafensead8.png"
+      ],
+      git:"https://github.com/JoaoGuedes01/FafenseAdventure",
+      deploy: "http://fafense-adventure.herokuapp.com/"
+    },
+     /*******************************************************************  Little Me *******************************************************************/
+     {
+      id: "little",
+      title: {
+        pt: "Aventura do Fafense",
+        eng: "Fafense Adventure",
+      },
+      context: [
+        {
+          icon: "gamedev",
+          label: {
+            pt: "Data Science",
+            eng: "Game Development",
+          },
+        },
+        {
+          icon: "softdev",
+          label: {
+            pt: "Data Science",
+            eng: "Software Development",
+          },
+        },
+        {
+          icon: "ux/ui",
+          label: {
+            pt: "Data Science",
+            eng: "UX/UI",
+          },
+        },
+        {
+          icon: "personal",
+          label: {
+            pt: "Projeto Académico",
+            eng: "Personal Project",
+          },
+        },
+      ],
+      tech: [
+        {
+          icon: "cs",
+          label: "C#",
+        },
+        {
+          icon: "unity",
+          label: "Unity"
+        },
+        {
+          icon: "ps",
+          label: "Adobe Photoshop",
+        }
+      ],
+      roles: [
+        {
+          pt: "Projeto Completo",
+          eng: "Entire Project"
+        }
+      ],
+      duration: {
+        year: "2019",
+        timelen: {
+          pt: "1 mês",
+          eng: "1 month",
+        },
+      },
+      desc: [
+        {
+          pt: "Estou bastante contente com o resultado e gostei muito do processo de desenvolvimento assim como o de presenciar o meu design a 'ganhar vida' aos poucos no meu ecrâ. Aprendi imenso acerca de teoria de Design, Design de Aplicações Web, design moderno e responsivo, conceitos básicos e avançados de CSS e saí com uma nova apreciação por desenvolvedores de Frontend. Sempre me manti bem afastado de Design e Frontend mas tendo construído este website sinto-me bastante confiante ao acrescentar desenvolvimento frontend e CSS nas minhas Skills/Habilidades.",
+          eng: "Little me was a game I started working when I decided I wanted to experiment a bit with Game Development, which always fascinated me. I had a pretty cool idea for a video game 'life seen through a child's eyes' but I clearly underestimated the amount of work, not only programming but art and creativity, that creating a video game would take. Soon I found myself wasting entire days working on a little basic asset that no one would see so I began to lose motivation and worked less and less on the project until I scraped it."
+        },
+        {
+          pt:"",
+          eng: "Suddenly covid came and I had a lot more time so I decided to dug the project and keep it going. This time around it wasn't as hard and I began to really enjoy it."
+        },
+        {
+          pt:"",
+          eng:"A friend of mine's birthday was coming up and I decided to be realistic and my game was not going anywhere soon so I repurposed the game to be a birthday gift, changed a lot of assets, keeping as many as I could, reworked some mechanics and shifted the focus of the game to be a fun birthday gift meant to be played in 5 minutes."
+        },
+        {
+          pt:"",
+          eng: "The result was a much more thought out project with a defined scope that made it a lot easier to work on and finish. I was pretty happy with the result and it's not very likely I'd ever work on this project again."
+        }
+        
+      ],
+      chall: [
+        {
+          pt:"",
+          eng:"Developing a game from scratch is very hard"
+        },
+        {
+          pt:"",
+          eng:"Learning Unity on the fly without a real vision for my game was pretty challenging"
+        },
+        {
+          pt:"",
+          eng:"Creating the Art and Animations for the game was much more time consuming than I thought initially."
+        },
+        {
+          pt:"",
+          eng: "Designing and creating the Levels (Good or even Average Levels) is an art in itself, which I severely underestimated"
+        },
+        {
+          pt:"",
+          eng:"Converting the final build to WegGL and integrating it in an actual HTML file was very hard and almost made me give up entirely in the final stage of the project"
+        }
+      ],
+      rate: 8,
+      ratelabel: "Pretty Good",
+      pos: [
+        {
+          pt: "",
+          eng: "Really fun project",
+        },
+        {
+          pt: "",
+          eng:" I learned a lot about Game Development and what is needed to make a game"
+        },
+        {
+          pt: "",
+          eng: "Made me gain a lot of respect and appreciation for the people who created the games I love because I struggled to make this bad little one",
+        },
+        {
+          pt: "",
+          eng: "Making a game is the perfect excuse to practice and exercise one's creative, artistic and progrmming abilities",
+        },
+        {
+          pt: "",
+          eng: "Creating a game is such a complex and envolved process that you end up learning a lot about so much more than just programming a game",
+        },
+      ],
+      neg: [
+        {
+          pt: "",
+          eng: "Really ambitious project to pull of in a month with no experience",
+        },
+        {
+          pt: "",
+          eng: "I started this game with no vision either functionally or artisticly, always hoping I would find it along the way. That's a recipe for disaster when making a game",
+        },
+        {
+          pt: "",
+          eng: "Learning to create a game has less to do with knowing how to program and more to having the complete set of skills (art/creativity/programming) and adapting each skill to your overall level of mastery.",
+        },
+        {
+          pt:"",
+          eng:"The reasons I listed above contributed for this project being, at times, very overwhelming and making me doubt my skills a lot. Of all the project I worked on to this day, game development is the area that creates this effect the most"
+        }
+      ],
+      img: [
+        "little1.png",
+        "little2.png",
+        "little3.png",
+        "little4.png",
+        "little5.png",
+        "little6.png",
+        "little7.png",
+        "little8.png"
+      ],
+      git:"https://github.com/JoaoGuedes01/LittleMe",
+      yt:"https://www.youtube.com/watch?v=j-a9NvyXbfM"
+    },
 ];
