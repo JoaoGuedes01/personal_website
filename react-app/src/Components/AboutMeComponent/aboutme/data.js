@@ -8,8 +8,8 @@ export const data = {
         eng: "My name is João Guedes"
     },
     titles:{
-        pt: ["Estudante em Engenharia de Gestão e Sistemas de Informação", "Programador", "Cientista de Dados", "Gestor de Projeto", "Hacker (Wannabe)"],
-        eng: ["Masters Student of Management and Information Systems","Programmer", "Data Scientist", "Project Manager", "Hacker (Wannabe)"]
+        pt: ["Estudante em Engenharia de Gestão e Sistemas de Informação", "Programador", "Cientista de Dados", "Gestor de Projeto", "Hacker (Wannabe)", "Engenheiro de TI"],
+        eng: ["Masters Student of Management and Information Systems","Programmer", "Data Scientist", "Project Manager", "Hacker (Wannabe)", "IT Engineer"]
     },
     p1:{
         pt:"Adoro código, criar e resolver problemas e este é o meu website pessoal e portfolio de projetos",

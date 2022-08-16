@@ -56,7 +56,7 @@ const Work = (props) => {
                 initial={anim.appearScroll.initial}
                 whileInView={anim.appearScroll.whileInView}
                 viewport={anim.appearScroll.viewport}>
-                <img className='work-item-im' src={'/workimg/' + item.image + "?auto=compress"} alt="" />
+                <img className='work-item-im' src={'/personal_website/workimg/' + item.image + "?auto=compress"} alt="" />
                 <div className={theme === "light" ? "work-item-description" : "work-item-description dark-work-item-desc"}>
                   <h2>{item.title[lang]}</h2>
                   <div className='project-type'>

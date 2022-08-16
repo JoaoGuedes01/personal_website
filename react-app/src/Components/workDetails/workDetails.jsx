@@ -70,7 +70,7 @@ const WorkDetails = ({ lang, theme }) => {
                             <AnimatePresence initial={false}>
                                 <motion.img
                                     key={index}
-                                    src={'/projects/' + project.img[index] + "?auto=compress"}
+                                    src={'/personal_website/projects/' + project.img[index] + "?auto=compress"}
                                     initial={{ x: "100%", opacity: 0 }}
                                     animate={{ x: 0, opacity: 1 }}
                                     exit={{ x: "-100%", opacity: 0 }}

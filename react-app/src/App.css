@@ -64,6 +64,10 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 
+.sending {
+    opacity: 0.8;
+}
+
 .dark-body{
     background-color: #0A192F;
 }

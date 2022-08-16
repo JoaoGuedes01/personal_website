@@ -38,8 +38,8 @@ const Navbar = (props) => {
             <motion.div initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "just", duration: 0.5, delay: 0.6 }}>
               {
                 lang == "eng" ?
-                  <a href='/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Resume</a> :
-                  <a href='/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Currículo</a>
+                  <a href='/personal_website/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Resume</a> :
+                  <a href='/personal_website/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Currículo</a>
               }
             </motion.div>
           </div>
@@ -73,8 +73,8 @@ const Navbar = (props) => {
                   <motion.div className="button-container" initial={{ y: "-100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ type: "spring", delay: 0.30 }}>
                     {
                       lang == "eng" ?
-                        <a href='/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Resume</a> :
-                        <a href='/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Currículo</a>
+                        <a href='/personal_website/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Resume</a> :
+                        <a href='/personal_website/cv_joao_guedes.pdf' className={theme == "light" ? 'main-button-out light-out' : 'main-button-out dark-out'}>Currículo</a>
                     }
                   </motion.div>
 
