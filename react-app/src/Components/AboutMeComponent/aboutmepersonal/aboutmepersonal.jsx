@@ -51,7 +51,7 @@ const Aboutmepersonal = (props) => {
                   <p className="about-p">{data[0].description.p2[lang]}</p>
                 </div>
                 <div className='profile-container'>
-                  <img src="/profile.png" className={theme === 'light' ? 'profile-img-light':'profile-img-dark'} />
+                  <img src="./personal_website/profile.png" className={theme === 'light' ? 'profile-img-light':'profile-img-dark'} />
                 </div>
               </motion.div>
             }
