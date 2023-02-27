@@ -47,7 +47,7 @@ const Experience = (props) => {
 
               {
                 data.work[toggleState].companyurl &&
-                <a href={data.work[toggleState].courseurl} className={theme == "light" ? 'main-button-fill light-fill' : 'main-button-fill dark-fill'}>{data.explorebtn[lang]}</a>
+                <a href={data.work[toggleState].companyurl} className={theme == "light" ? 'main-button-fill light-fill' : 'main-button-fill dark-fill'}>{data.explorebtn[lang]}</a>
               }
 
             </motion.div>
