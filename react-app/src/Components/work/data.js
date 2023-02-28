@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "Integração Jira TFS",
+      eng: "QA Integration",
+    },
+    subject: {
+      pt: "Integração de Sistemas",
+      eng: "System Integration",
+    },
+    description: {
+      pt:'',
+      eng:'Integration Platform between Jira and Microsoft Devops(TFS) systems for item migration, QA evaluation and work management.'
+    },
+    icon: "int",
+    image: "qaint.png",
+    route: "qaint",
+    sub: "Web Development",
+  },
+  {
+    title: {
       pt: "Website Pessoal",
       eng: "Personal Website",
     },

@@ -207,5 +207,40 @@ export const data = {
       certurl:
         "https://www.udemy.com/certificate/UC-e80e8d34-2f11-481f-aa73-441cccf2fd40/",
     },
+
+    {
+      title: {
+        pt: "Applied Machine Learning: Fundamentos",
+        eng: "Applied Machine Learning: Foundations",
+      },
+      duration: {
+        pt: "",
+        eng: "October 2022",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: 'Anyone who can write basic Python is capable of fitting a simple machine learning model on a clean dataset. The competitive edge comes in the ability to customize and optimize those models for specific problems. The workflow used to build effective machine learning models and the methods used to optimize those models are typically not algorithm or problem specific. In this course, the first installment in the two-part Applied Machine Learning series, instructor Derek Jedamski digs into the foundations of machine learning, from exploratory data analysis to evaluating a model to ensure it generalizes to unseen examples. Instead of zeroing in on any specific machine learning algorithm, Derek focuses on giving you the tools to efficiently solve nearly any kind of machine learning problem.'
+        },
+
+        {
+          pt: "",
+          eng: 'Through this course I was able to refine and reinforce the Machine Learning foundations I already had from academic and personal projects/studies.'
+        },
+
+        {
+          pt: "",
+          eng: 'It was an oportunity to conduct an entire Machine Learning project in a supervised manner and following the Industry\'s guidelines and methodologies. In retrospective, I feel like I learned the most and grew the most in Data Understanding/Exploration and its importance for a well achieved Machine Learning project via analysis techniques, golden questions and standard rules.'
+        },
+      ],
+      courseurl:
+        "https://www.linkedin.com/learning/applied-machine-learning-foundations",
+      certurl:
+        "https://www.linkedin.com/learning/certificates/01279c7b2550e67358848ac4c890ef9b568fde498841cd78052f9b9ac4a61065",
+    },
   ],
 };

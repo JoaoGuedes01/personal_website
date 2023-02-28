@@ -21,13 +21,13 @@ export const data = {
     },
     btnProj:{
         pt:"Projeto",
-        eng:"Project"
+        eng:"Latest Work"
     },
     btnContact:{
         pt:"Vamos Falar",
         eng:"Let's Talk"
     },
-    latest:"personalweb"
+    latest:"qaint"
 
 };
 
