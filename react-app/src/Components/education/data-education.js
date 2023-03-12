@@ -242,5 +242,83 @@ export const data = {
       certurl:
         "https://www.linkedin.com/learning/certificates/01279c7b2550e67358848ac4c890ef9b568fde498841cd78052f9b9ac4a61065",
     },
+
+    {
+      title: {
+        pt: "Arquitetura de Software: Padrões para Desenvolvedores",
+        eng: "Software Architecture: Patterns for Developers",
+      },
+      duration: {
+        pt: "",
+        eng: "March 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "As a developer, you're ultimately building software to solve problems for your users. But a successful application also needs to be easy for you and other developers to work with. Enter software architecture patterns. These trusted solutions allow you to translate complex architectural problems to recognizable patterns. In this course, instructor Peter Morlion covers a variety of software architecture patterns, showing you how to apply the correct architecture to new systems and recognize patterns in existing systems. Peter goes over application landscape patterns such as microservices. He also covers application structure patterns like event sourcing, as well as UI patterns like model-view-controller (MVC). Along the way, he shares pros and cons that help you determine which patterns to use. "
+        },
+
+      ],
+      courseurl:
+        "https://www.linkedin.com/learning/software-architecture-patterns-for-developers",
+      certurl:
+        "https://www.linkedin.com/learning/certificates/a6f325157a9b6349fd4a4c5dc2db1f4f45ab9b94d142dfe2be9c1b6082c1084f",
+    },
+
+    {
+      title: {
+        pt: "Aprendendo RabbitMQ",
+        eng: "Learning RabbitMQ",
+      },
+      duration: {
+        pt: "",
+        eng: "March 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "RabbitMQ is one of the most popular open-source message brokers in use today. This lightweight software can help companies that have adopted a microservices model stitch together and enable communication between their services. In this course, join instructor Peter Morlion as he demonstrates how to properly install and work with RabbitMQ as a developer. After delving into the fundamental concepts behind message-based systems and the AMQP message protocol, Peter explains why you might want to use RabbitMQ, as well as how to install it. He then showcases how to implement the tool, covering both basic usage, such as how to publish to and consume from a RabbitMQ exchange, as well as more advanced topics like setting up and using authentication in RabbitMQ."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/learning-rabbitmq",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/144dc3aa4b050801f52533e05a6f0402bc4177e9c5ec65960c405109a5e4ee8f"
+    },
+
+    {
+      title: {
+        pt: "implementar Modelos de Machine Learning Escaláveis para Ciência de Dados",
+        eng: "Deploying Scalable Machine Learning for Data Science",
+      },
+      duration: {
+        pt: "",
+        eng: "March 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "Machine learning models often run in complex production environments that can adapt to the ebb and flow of big data. The tools and practices that help data scientists rapidly build machine learning models are not sufficient to deploy those models at scale. To deliver scalable solutions, you need a whole new toolset. This course provides data scientists and DevOps engineers with an overview of common design patterns for scalable machine learning architectures, as well as tools for deploying and maintaining machine learning models in production. Instructor Dan Sullivan reviews three technologies that enable scalable machine learning: services that expose models through APIs, containers for deploying models, and orchestration tools like Kubernetes that help manage containers and clusters. Plus, get tips for monitoring the performance of your services in production environments."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/deploying-scalable-machine-learning-for-data-science",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/e02b02eba07b600bacc754a3035895483cdfce2cdfe79732694541f69f466308"
+    }
   ],
 };
