@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "Sueca Online",
+      eng: "Sueca Websocket Game",
+    },
+    subject: {
+      pt: "Desenvolvimento Web",
+      eng: "Web Development",
+    },
+    description: {
+      pt:'',
+      eng:'The popular card game Sueca faithfully recreated using WebSockets for server-client real time communication'
+    },
+    icon: "webdev",
+    image: "sueca.png",
+    route: "sueca",
+    sub: "Web Development",
+  },
+  {
+    title: {
       pt: "Integração Jira TFS",
       eng: "QA Integration",
     },

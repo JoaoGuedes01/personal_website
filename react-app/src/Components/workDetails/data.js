@@ -1,4 +1,185 @@
 export const data = [
+  /*******************************************************************  Sueca *******************************************************************/
+  {
+    id: "sueca",
+    title: {
+      pt: "Sueca Online",
+      eng: "Sueca Websocket Game",
+    },
+    context: [
+      {
+        icon: "webdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Web Development",
+        },
+      },
+      {
+        icon: "ux/ui",
+        label: {
+          pt: "UX/UI",
+          eng: "UX/UI",
+        },
+      },
+      {
+        icon: "int",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "System Integration",
+        },
+      },
+      {
+        icon: "personal",
+        label: {
+          pt: "Projeto Pessoal",
+          eng: "Personal Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "react",
+        label: "React",
+      },
+      {
+        icon: "antd",
+        label: "Ant Design",
+      },
+      {
+        icon: "html",
+        label: "HTML",
+      },
+      {
+        icon: "css",
+        label: "CSS",
+      },
+      {
+        icon: "js",
+        label: "JavaScript",
+      },
+      {
+        icon: 'nodejs',
+        label: 'Node.js'
+      },
+      {
+        icon: "ws",
+        label: "WebSockets",
+      },
+      {
+        icon: "repl",
+        label: "Repl.it ",
+      },
+    ],
+    roles: [
+      {
+        pt: "Aplicação Completa",
+        eng: "Full Application",
+      },
+      {
+        pt: "Design UX/UI",
+        eng: "UX/UI Design",
+      },
+      {
+        pt: "Desenvolvimento da App",
+        eng: "Server Development",
+      },
+      {
+        pt: "Desenvolvimento da App",
+        eng: "Client Development",
+      },
+      {
+        pt: "Desenvolvimento da App",
+        eng: "WebSocket Design and implementation",
+      },
+      {
+        pt: "Deploy da App publicamente",
+        eng: "App Deployment",
+      },
+    ],
+    duration: {
+      year: 2023,
+      timelen: {
+        pt: "1 semana",
+        eng: "1 week",
+      },
+    },
+    desc: [
+      {
+        pt: '',
+        eng: 'While learning about WebSockets and their place in Web Development I was amazed at their potential. Page refreshing was always a big concern to me while developing Web Applications so I knew I needed to dip my toes in WebSockets. Having already some experience with traditional Sockets in Java I opted to learn traditional WebSockets instead of using the popular Socket.io. This proved to me quite the challenge since Socket.io is home for many quality of life functionalities that are simply not present in normal WebSockets.'
+      },
+      {
+        pt: '',
+        eng: "While learning I had the idea of recreating the popular game Sueca from the ground up using WebSockets communication for the game state and logic since the rules are very well established and would give my learning project a puropose, to play online with whoever joins me."
+      },
+      {
+        pt: '',
+        eng: "There were some initial choices like having a max of 4 players and identifying the players solely by their nicknames and not persisting sessions of players that disconnected would complicate my life later down the line but the game started there. The logic is pretty simple connecting every client but only adding them to the pool of players if their nickname is not present in said pool or if there are not 4 players already playing. Everytime a player would make a connection to the server, being it joining the game or making a move ther server would update every player connected so every client knows exactly the state the game is in."
+      },
+      {
+        eng: "Overall I enjoyed learning and practicing my skills in Web Development and WebSockets with this challenge"
+      }
+    ],
+    chall: [
+      {
+        pt: '',
+        eng: 'Learning the WebSocket protocol and interactions'
+      },
+      {
+        pt: '',
+        eng: 'Implementing WebSockets for an interactive game'
+      },
+      {
+        pt: '',
+        eng: 'Implementing the rules of Sueca in the server'
+      },
+      {
+        pt: '',
+        eng: 'Keeping all clients up to date with all player moves'
+      },
+      {
+        pt: '',
+        eng: '"Seating" every player in their respective seats on each client proved to be the worst and most challenging part'
+      },
+      {
+        pt: '',
+        eng: "The most popular hosting services are very particular with the WebSockets protocol which made the deployment a knightmare."
+      },
+    ],
+    rate: 10,
+    ratelabel: "Loved It",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "Taught me a lot about WebSockets and how they work",
+      },
+      {
+        pt: "",
+        eng: "Good practice for Web Development and Web Design",
+      },
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "WebSockets can be very challenging to work with ",
+      },
+      {
+        pt: "",
+        eng: "Hosting services are very strict with WebSockets communications",
+      },
+      {
+        pt: "",
+        eng: "My first ever WebSockets server so the learning experience was a little rough",
+      },
+    ],
+    img: ["sueca1.png", "sueca2.png", "sueca3.png", "sueca4.png", "sueca5.png", "sueca6.png", "sueca7.png", "sueca8.png"],
+    deploy: "https://joaoguedes01.github.io/sueca_websocket_client/",
+    git: "https://github.com/JoaoGuedes01/sueca_websocket_client",
+  },
   /*******************************************************************  QA Integration *******************************************************************/
   {
     id: "qaint",
@@ -93,7 +274,7 @@ export const data = [
       },
     ],
     duration: {
-      year: 2022,
+      year: 2023,
       timelen: {
         pt: "1 mês",
         eng: "1 month",
