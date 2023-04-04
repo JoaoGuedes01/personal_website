@@ -2975,14 +2975,14 @@ export const data = [
       "fafensead8.png"
     ],
     git: "https://github.com/JoaoGuedes01/FafenseAdventure",
-    deploy: "http://fafense-adventure.herokuapp.com/"
+    deploy: "https://fafenseadventure.joaoguedes01.repl.co/"
   },
   /*******************************************************************  Little Me *******************************************************************/
   {
     id: "little",
     title: {
-      pt: "Aventura do Fafense",
-      eng: "Fafense Adventure",
+      pt: "Pequeno Eu",
+      eng: "Little Me",
     },
     context: [
       {
