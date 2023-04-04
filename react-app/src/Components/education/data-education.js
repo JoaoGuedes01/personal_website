@@ -319,6 +319,32 @@ export const data = {
       "https://www.linkedin.com/learning/deploying-scalable-machine-learning-for-data-science",
       certurl:
       "https://www.linkedin.com/learning/certificates/e02b02eba07b600bacc754a3035895483cdfce2cdfe79732694541f69f466308"
+    },
+
+    {
+      title: {
+        pt: "AWS para desenvolvedores: DynamoDB",
+        eng: "AWS for Developers: DynamoDB",
+      },
+      duration: {
+        pt: "",
+        eng: "March 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "DynamoDB is a fully managed NoSQL database solution hosted on the AWS cloud. It allows developers quickly scale to support millions of requests without having to worry about provisioning, clustering, patching, and replication. DynamoDB is also known for being an ideal solution for web APIs due to its robust support of JSON. In this course, learn how to leverage this solution so you can reap the high-performance benefits. Robby Millsap covers planning, database fundamentals, coding, and support. He takes you through the process of modeling data, creating tables, using Node.js, indexing, fetching, searching, scanning, querying, authentication, monitoring, and more.",
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/aws-for-developers-dynamodb",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/1e18ab1f432bdecb44828ed53d15a1f506c23b78ca29a6e3261362fc6bd9edd2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BGOM80kumSpuXisRO%2F%2FLcWQ%3D%3D"
     }
   ],
 };

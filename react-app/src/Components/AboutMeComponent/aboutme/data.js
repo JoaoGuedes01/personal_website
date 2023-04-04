@@ -27,7 +27,7 @@ export const data = {
         pt:"Vamos Falar",
         eng:"Let's Talk"
     },
-    latest:"qaint"
+    latest:"sueca"
 
 };
 
