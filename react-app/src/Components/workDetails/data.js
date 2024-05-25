@@ -1,4 +1,166 @@
 export const data = [
+  /*******************************************************************  GuedesMoney *******************************************************************/
+  {
+    id: "guedesmoney",
+    title: {
+      pt: "GuedesMoney",
+      eng: "GuedesMoney"
+    },
+    context: [
+      {
+        icon: "webdev",
+        label: {
+          pt: "Desenvolvimento Web",
+          eng: "Web Development",
+        },
+      },
+      {
+        icon: "softdev",
+        label: {
+          eng: "Software Development",
+          pt: "Desenvolvimento de Software"
+        }
+      },
+      {
+        icon: "automation",
+        label: {
+          eng: "Automation",
+          pt: "Automação"
+        }
+      },
+      {
+        icon: "personal",
+        label: {
+          pt: "Projeto Pessoal",
+          eng: "Personal Project",
+        },
+      },
+    ],
+    tech: [
+      {
+        icon: "jupyter",
+        label: "Jupyter",
+      },
+      {
+        icon: "python",
+        label: "Python",
+      },
+      {
+        icon: "selenium",
+        label: "Selenium"
+      },
+      {
+        icon: "typer",
+        label: "Typer"
+      }
+    ],
+    roles: [
+      {
+        pt: "",
+        eng: "Full Project"
+      },
+      {
+        pt: "",
+        eng: "CLI Design"
+      },
+      {
+        pt: "",
+        eng: "Portal das Finanças crawler"
+      },
+      {
+        pt: "",
+        eng: "CLI Deployment"
+      },
+      {
+        pt: "",
+        eng: "Version Management"
+      },
+    ],
+    duration: {
+      year: 2024,
+      timelen: {
+        pt: "2 semanas",
+        eng: "2 weeks",
+      },
+    },
+    desc: [
+      {
+        eng: "Portal das Finanças is a very infuriating platfrom as it does not contain any form of alerts or feedback. This is very much by design which I consider to be anti-consumer. This way most important things get 'forgotten' a lot and we have to pay exorbitant fines. This could very well be avoided if I were to check my portal daily but that seems very tedious."
+      },
+      {
+        eng: "While playing around with Selenium I got the idea to create a CLI that could perform basic actions such as simple checks that I could install and call at will. This CLI would have the credentials necessary to access my account on Portal das Finanças and do whatever actions I needed it to do."
+      },
+      {
+        eng: "GuedesMoney was then born out of the necessity of being always up to date with whatever is present on my Portal das Finanças without actually going there and checking it out. Instead, using Selenium, GuedesMoney can scrape the platform looking for anything out of order such as debts or any other necessary/pending actions. As a CLI guedesmoney can be plugged in to any environment or any automation system making it a very easy tool to work with."
+      },
+      {
+        eng: "Being part of the pypi ecosystem it is even easir to operate and integrate with other Python projects."
+      },
+      {
+        eng: "It needs to be configured with portal credentials and email information for daily updates."
+      }
+    ],
+    chall: [
+      {
+        pt: '',
+        eng: 'Learning Selenium was pretty challenging as writing a web scraper is not very straightforward'
+      },
+      {
+        eng: 'Working with Portal das Finanças and scraping it was also pretty challenging'
+      },
+      {
+        eng: 'Implementing CI/CD was pretty challenging given pypi is not as integrated as npm'
+      },
+      {
+        eng: 'Version control was done from scratch'
+      },
+      {
+        eng: 'Good python CLI development is pretty challenging but rewarding'
+      }
+    ],
+    rate: 10,
+    ratelabel: "Loved It",
+    pos: [
+      {
+        pt: "",
+        eng: "Really fun project",
+      },
+      {
+        pt: "",
+        eng: "Taught me a lot about Selenium and how it works",
+      },
+      {
+        pt: "",
+        eng: "Good practice for WebApp testing and scraping",
+      },
+      {
+        eng: 'Taught me about Python CLIs'
+      },
+      {
+        eng: 'Taught me about Python pypi environment and package version control'
+      }
+    ],
+    neg: [
+      {
+        pt: "",
+        eng: "Selenium can be very challenging to work with ",
+      },
+      {
+        pt: "",
+        eng: "Pypi is very opinionated and not very easy to work with",
+      },
+      {
+        pt: "",
+        eng: "Version control from scratch is a chore and easy to mess up",
+      },
+      {
+        eng: 'Portal das Finanças was very hard to work with as it is not very well developed'
+      }
+    ],
+    img: ["guedesmoney1.png", "guedesmoney2.png", "guedesmoney3.png", "guedesmoney4.png", "guedesmoney5.png", "guedesmoney6.png", "guedesmoney7.png"],
+    deploy: "https://pypi.org/project/guedesmoney/",
+    git: "https://github.com/JoaoGuedes01/scraper_portal_financas",
+  },
   /*******************************************************************  Sueca *******************************************************************/
   {
     id: "sueca",

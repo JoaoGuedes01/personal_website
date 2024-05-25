@@ -75,6 +75,47 @@ export const data = {
 
       ],
       companyurl: "https://checkmarx.com/",
-    }
+    },
+    {
+      title: {
+        pt: "Engenheiro de Software e Quality Assurance",
+        eng: "Software Engineer and Quality Assurance",
+      },
+      duration: {
+        pt: "Maio 2023 - Atual.",
+        eng: "May 2023 - Current.",
+      },
+      company: {
+        pt: "Checkmarx - Braga",
+        eng: "Checkmarx - Braga",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "After my professional internship I was offered a full-time position in the Quality Assurance team where I got to work directly with the teams that made the Checkmarx Engine possible."
+        },
+        {
+          pt: "",
+          eng: "Above all my responsibilities boiled down to making sure that the Engine was always in top condition. I was assigned a particular team and all their work would go through me before being integrated permanentely."
+        },
+        {
+          pt: "",
+          eng: "Making sure of this means controlling what happens between changes down to the single outputs of the Engine. For this we developed an intricate system of CI/CD in order to have this information at all times. My contributions to this ecosystem are constant and my work also extends to maintaining it and to come up with new and inovative systems and workflows enabling us to have a better understanding of everything going on."
+        },
+        {
+          pt: "",
+          eng: "On this note I was a crucial part of the recent data driven analysis and insight gathering internal projects that aim to more clearly communicate to us and the Engine developers the repercussions of their changes."
+        },
+        {
+          pt: "",
+          eng: "For my daily work I need strong cybersecurity knowledge/notion since I'm validating weather our SaST engine is working properly when it comes to new features and vulnerabilities. This leads me to research a lot and try to find new ways where the code might still be vulnerable but not caught by SaST."
+        },
+        {
+          pt: "",
+          eng: "Automation also plays a very big part in my work since we're always looking for new ways to be more efficient and to have more free time to dedicate to actually brainstorm new ideas. On this note I was the pioneer of using Jupyter Lab and Python for our automation/manual analysis work since it allows us to look at data more freely and quickly."
+        }
+      ],
+      companyurl: "https://checkmarx.com/",
+    },
   ],
 };

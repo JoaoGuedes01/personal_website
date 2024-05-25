@@ -345,6 +345,161 @@ export const data = {
       "https://www.linkedin.com/learning/aws-for-developers-dynamodb",
       certurl:
       "https://www.linkedin.com/learning/certificates/1e18ab1f432bdecb44828ed53d15a1f506c23b78ca29a6e3261362fc6bd9edd2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BGOM80kumSpuXisRO%2F%2FLcWQ%3D%3D"
+    },
+
+    {
+      title: {
+        pt: "AWS para desenvolvedores: DynamoDB",
+        eng: "AWS Essential Training for Developers",
+      },
+      duration: {
+        pt: "",
+        eng: "March 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "Learn the best ways to host your application within AWS. Jeremy “JV” Villeneuve guides you through how to make the best use of services like IaaS, DBaaS, PaaS, and SaaS using hands-on examples. Plus, explore DevOps and security within AWS and prepare for the AWS Cloud Practitioner Certification (CLF-C02) exam by using the sample questions included at the end of each chapter."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/aws-essential-training-for-developers",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/4c0ba42b4b8aba592b0cba6f82aa6a1b0dbcf879547cdc80c40ee5519a3ee6b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BDImpVkHSR2GVilCVnh%2B6tQ%3D%3D",
+    },
+
+    {
+      title: {
+        pt: "Testar em Agile",
+        eng: "Agile Testing",
+      },
+      duration: {
+        pt: "",
+        eng: "April 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "Learn how to create higher-quality software at a faster clip by implementing agile testing in your organization. Throughout this course, instructor Ash Coleman helps you boost your understanding of the role and methods of software testers, as well as how testing can enhance your agile workflow. To kick things off, Ash goes over the role of the tester in agile teams, detailing how testers govern, monitor, and encourage quality practices. Next, she steps through the agile testing approach and pinpoints where testers can add value. She also helps to acquaint you with key testing processes and responsibilities, including bug tracking; explores both manual testing and test automation; and discusses how continuous integration can be incorporated into the mix."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/agile-testing-2",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/2788436a7e129e0be176cdf2536a33a11d23b41daf0352ddd8e8483bcfb7d171?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BDImpVkHSR2GVilCVnh%2B6tQ%3D%3D"
+    },
+
+    {
+      title: {
+        pt: "A API OWASP Security: Uma visão global",
+        eng: "The OWASP API Security Top 10: An Overview",
+      },
+      duration: {
+        pt: "Agosto 2023",
+        eng: "August 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "Want to learn more about securing APIs? Check out the OWASP API Security Top 10, a list of security vulnerabilities compiled and published by the Open Web Application Security Project. In this course, instructor Davin Jackson shows you how APIs really work so you can get up and running with securing them and better protect your applications. Find out why it’s so important to develop your security management skills, especially as more and more applications become increasingly API driven. Get tips along the way on dealing with common API vulnerabilities, including broken object-level authorization, broken authentication, excessive data exposure, lack of resources and rate limiting, mass assignment, and more."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/the-owasp-api-security-top-10-an-overview",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/03086a3cbcdfa5c2a2f25827f758fe6a53a37030eeabb92aa23ba1364eeee04b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BDImpVkHSR2GVilCVnh%2B6tQ%3D%3D"
+    },
+
+    {
+      title: {
+        pt: "Aprender GitHub Actions",
+        eng: "Learning GitHub Actions",
+      },
+      duration: {
+        pt: "Setembro 2023",
+        eng: "September 2023",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "GitHub Actions is a continuous integration tool that allows developers to automate tasks for their web projects. In this course, learn how to use this powerful tool to build workflows triggered by events, develop a continuous integration and continuous delivery (CI/CD) pipeline, and create custom actions. Instructor Michael Jenkins shows how to create your first actions and then construct a workflow that runs them. He also demonstrates how to use actions from the GitHub Marketplace and public repositories, leverage the capabilities of GitHub Actions to support your CI/CD workflow, and plan and develop custom actions.GitHub Actions is a continuous integration tool that allows developers to automate tasks for their web projects. In this course, learn how to use this powerful tool to build workflows triggered by events, develop a continuous integration and continuous delivery (CI/CD) pipeline, and create custom actions. Instructor Michael Jenkins shows how to create your first actions and then construct a workflow that runs them. He also demonstrates how to use actions from the GitHub Marketplace and public repositories, leverage the capabilities of GitHub Actions to support your CI/CD workflow, and plan and develop custom actions."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/learning-github-actions-2",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/c7337767dbabe9259bca2aaaf9f4252ecc98f01d98744815fa34c4b11f72910f?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BDImpVkHSR2GVilCVnh%2B6tQ%3D%3D"
+    },
+    
+    {
+      title: {
+        pt: "Engenharia DevOps na AWS",
+        eng: "DevOps Engineering on AWS",
+      },
+      duration: {
+        pt: "Outubro 2023",
+        eng: "October 2023",
+      },
+      school: {
+        pt: "",
+        eng: "AWS",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "DevOps Engineering on AWS teaches you how to use the combination of DevOps cultural philosophies, practices, and tools to increase your organization’s ability to develop, deliver, and maintain applications and services at high velocity on AWS. This course covers continuous integration (CI), continuous delivery (CD), infrastructure as code, microservices, monitoring and logging, and communication and collaboration. Hands-on labs give you experience building and deploying AWS CloudFormation templates and CI/CD pipelines that build and deploy applications on Amazon Elastic Compute Cloud (Amazon EC2), serverless applications, and container-based applications. Labs for multi-pipeline workflows and pipelines that deploy to multiple environments are also included."
+        },
+
+      ],
+      courseurl:
+      "https://aws.amazon.com/training/classroom/devops-engineering-on-aws/",
+    },
+    
+    {
+      title: {
+        pt: "Aprender OWASP Top 10",
+        eng: "Learning the OWASP Top 10",
+      },
+      duration: {
+        pt: "Janeiro 2024",
+        eng: "January 2024",
+      },
+      school: {
+        pt: "",
+        eng: "Linkedin Learning",
+      },
+      desc: [
+        {
+          pt: "",
+          eng: "No organization—no matter how large or small—is invulnerable to security breaches. What makes all of these systems, and the software that runs them, susceptible to attack? The Open Web Application Security Project (OWASP) was formed to provide the public with the resources to understand key risks and improve software security. And every few years, they publish a list of the ten biggest application security vulnerabilities. In this course, application security expert Caroline Wong provides an overview of the 2021 OWASP Top 10, presenting information about each vulnerability category, its prevalence, and its impact. Though aimed at IT security professionals and developers, anyone who uses web applications will benefit from an understanding of these risks."
+        },
+
+      ],
+      courseurl:
+      "https://www.linkedin.com/learning/learning-the-owasp-top-10",
+      certurl:
+      "https://www.linkedin.com/learning/certificates/b58423652c3d0c69d74d49544bbec30cb6dddaa6ebc72e674b36146961d262f5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BDImpVkHSR2GVilCVnh%2B6tQ%3D%3D"
     }
+
   ],
 };

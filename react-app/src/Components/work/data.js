@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "GuedesMoney",
+      eng: "GuedesMoney",
+    },
+    subject: {
+      pt: "Desenvolvimento de Software",
+      eng: "Software Development",
+    },
+    description: {
+      pt:'',
+      eng: 'A CLI interface for interacting with Portal das Finanças automatically and programmatically'
+    },
+    icon: "softdev",
+    image: "guedesmoney.png",
+    route: "guedesmoney",
+    sub: "Software Development",
+  },
+  {
+    title: {
       pt: "Sueca Online",
       eng: "Sueca Websocket Game",
     },
