@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "Doppelganger",
+      eng: "Doppelganger",
+    },
+    subject: {
+      pt: "Desenvolvimento de Software",
+      eng: "Software Development",
+    },
+    description: {
+      pt:'',
+      eng: 'Platform to compare code bases, calculate similarity, and minimize redundancy.'
+    },
+    icon: "softdev",
+    image: "doppelganger.png",
+    route: "doppelganger",
+    sub: "Software Development",
+  },
+  {
+    title: {
       pt: "GuedesMoney",
       eng: "GuedesMoney",
     },
