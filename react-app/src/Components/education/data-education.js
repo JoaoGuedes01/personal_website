@@ -19,7 +19,7 @@ export const data = {
       },
       duration: {
         pt: "",
-        eng: "September 2018 - Present",
+        eng: "September 2018 - December 2024",
       },
       school: {
         pt: "Universidade do Minho",
@@ -28,23 +28,33 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "In 2018 I started my University journey in Management Engineering and Information Systems and now, having completed 4 years and obtaining great grades, I feel like I have a very broad set of skills, not only technological skills like programming and developing, data science and data mining, networking and infrastructure, but also management skills in areas like project management, logistics and marketing",
+          eng: "In 2018, I embarked on my university journey in Management Engineering and Information Systems. Over the course of four years, I honed a diverse and comprehensive skill set, not only in technical domains like programming, data science, and networking, but also in management disciplines such as project management, logistics, and marketing. This blend of expertise has equipped me with the tools to navigate both the technological and managerial landscapes with confidence."
         },
 
         {
           pt: "",
-          eng: "Although I had a clear preference for the technological aspect of my course I can't deny the usefulness of all the concepts and experience I obtained from the management one ",
+          eng: "While my academic focus and personal preference leaned towards the technological aspects of my studies, I also deeply appreciated the value of the management concepts I encountered, which have proven to be incredibly useful in my professional growth."
         },
 
         {
           pt: "",
-          eng: "In my course I developed projects with, pretty much, all the important and used programming languages such as javascript(and node.js for backend / html and css for frontend) for Web Development, Python for machine learning, data science and data mining, and java + python for big data. Databases were also a big focus point of the course being relational SQL databases the main tool. Linux, networking and assembly were also covered but were not the focus",
+          eng: "Throughout my degree, I worked on a variety of projects utilizing a wide range of programming languages and technologies. These included JavaScript (and Node.js for backend, HTML and CSS for frontend) for web development, Python for machine learning, data science, and data mining, as well as Java and Python for big data applications. A core focus of my studies was database management, particularly relational SQL databases. While Linux, networking, and assembly were also covered, they were secondary in comparison to the other technical areas."
         },
 
         {
           pt: "",
-          eng: "In the management side I learned a lot about project management and its methodologies like SCRUM and Waterfall, I also learned a lot about modeling with UML (Unified Modeling Language) and BPMN (Business Process Model and Notation). Tools like MS Project were used to create and use Gantt Charts, something all my project planning documents have, and a lot of other management notions"
+          eng: "On the management side, I gained significant experience with project management methodologies such as SCRUM and Waterfall, as well as process modeling with tools like UML (Unified Modeling Language) and BPMN (Business Process Model and Notation). I became proficient in using tools like Microsoft Project to create Gantt Charts, which became a central feature of all my project planning documents. These experiences, coupled with a deeper understanding of organizational processes, provided me with a well-rounded approach to both technology and management."
         },
+
+        {
+          pt: "",
+          eng: "Building on this foundation, I pursued a master’s degree where I focused on integrating Adaptive Business Intelligence in Healthcare. I am proud to say that I completed my thesis with the highest possible distinction, earning a perfect grade of 20/20. This work not only furthered my expertise in both business intelligence and healthcare but also solidified my ability to apply technical solutions to real-world challenges, bridging the gap between cutting-edge technology and strategic management in the healthcare sector."
+        },
+
+        {
+          pt: "",
+          eng: "With this combination of technological acumen, management insight, and a specialized focus on Adaptive Business Intelligence, I am well-equipped to tackle complex challenges in various industries."
+        }
       ],
       courseurl: "https://miegsi.dsi.uminho.pt",
       certurl: "",

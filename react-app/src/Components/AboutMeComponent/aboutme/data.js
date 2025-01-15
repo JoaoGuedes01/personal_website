@@ -8,8 +8,8 @@ export const data = {
         eng: "My name is João Guedes"
     },
     titles:{
-        pt: ["Estudante em Engenharia de Gestão e Sistemas de Informação", "Programador", "Cientista de Dados", "Gestor de Projeto", "Hacker (Wannabe)", "Engenheiro de TI"],
-        eng: ["Masters Student of Management and Information Systems","Programmer", "Data Scientist", "Software Engineer", "Project Manager", "Ethical Hacker (Wannabe)", "IT Engineer", "DevOps"]
+        pt: ["Mestrado em Engenharia de Gestão e Sistemas de Informação", "Engenharia de Software", "Ciência de Dados", "Gestão de Projetos", "Cibersegurança", "Hacking Ético", "DevOps", "Utilizador Avançado de Unix"],
+        eng: ["Master's in Management Engineering and Information Systems", "Software Engineering", "Data Science", "Project Management", "CyberSecurity", "Ethical Hacking", "DevOps", "Unix Poweruser"]
     },
     p1:{
         pt:"Adoro código, criar e resolver problemas e este é o meu website pessoal e portfolio de projetos",
@@ -27,6 +27,6 @@ export const data = {
         pt:"Vamos Falar",
         eng:"Let's Talk"
     },
-    latest:"doppelganger"
+    latest:"abi_thesis"
 };
 

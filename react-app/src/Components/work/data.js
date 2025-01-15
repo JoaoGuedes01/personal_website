@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "Tese de Mestrado (ABI na Saúde)",
+      eng: "Master's Thesis (ABI in Healthcare)",
+    },
+    subject: {
+      pt: "Desenvolvimento de Software",
+      eng: "Software Development",
+    },
+    description: {
+      pt:'',
+      eng: 'Interoperability System for integrating ABI systems in Healthcare environments.'
+    },
+    icon: "softdev",
+    image: "abi_thesis.png",
+    route: "abi_thesis",
+    sub: "Software Development",
+  },
+  {
+    title: {
       pt: "Doppelganger",
       eng: "Doppelganger",
     },
