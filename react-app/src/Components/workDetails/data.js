@@ -1,4 +1,187 @@
 export const data = [
+  /*******************************************************************  CLAB *******************************************************************/
+  {
+    "id": "clab",
+    "title": {
+      "pt": "C-LAB (Comparison Lab)",
+      "eng": "C-LAB (Comparison Lab)"
+    },
+    "context": [
+      {
+        "icon": "webdev",
+        "label": {
+          "pt": "Desenvolvimento Web",
+          "eng": "Web Development"
+        }
+      },
+      {
+        "icon": "softdev",
+        "label": {
+          "eng": "Software Development",
+          "pt": "Desenvolvimento de Software"
+        }
+      },
+      {
+        "icon": "work",
+        "label": {
+          "pt": "Projeto Profissional",
+          "eng": "Professional Project"
+        }
+      }
+    ],
+    "tech": [
+      {
+        "icon": "nodejs",
+        "label": "Node.js"
+      },
+      {
+        "icon": "grpc",
+        "label": "gRPC"
+      },
+      {
+        "icon": "mongo",
+        "label": "MongoDB"
+      },
+      {
+        "icon": "mysql",
+        "label": "MySQL"
+      },
+      {
+        "icon": "s3",
+        "label": "S3"
+      },
+      {
+        "icon": "redis",
+        "label": "Redis"
+      },
+      {
+        "icon": "rabbitmq",
+        "label": "RabbitMQ"
+      },
+      {
+        "icon": "docker",
+        "label": "Docker"
+      },
+      {
+        "icon": "github",
+        "label": "GitHub"
+      },
+      {
+        "icon": "gh_actions",
+        "label": "GitHub Actions"
+      },
+    ],
+    "roles": [
+      {
+        "pt": "Arquitetura de Microsserviços",
+        "eng": "Microservice Architecture"
+      },
+      {
+        "pt": "Design e Implementação de API Gateway",
+        "eng": "API Gateway Design and Implementation"
+      },
+      {
+        "pt": "Integração e Administração de Bases de Dados",
+        "eng": "Database Integration and Administration"
+      },
+      {
+        "pt": "Automatização de CI/CD",
+        "eng": "CI/CD Automation"
+      },
+      {
+        "pt": "Containerização e Orquestração",
+        "eng": "Containerization and Orchestration"
+      },
+      {
+        "pt": "Desenvolvimento de Serviços Backend",
+        "eng": "Backend Service Development"
+      },
+      {
+        "pt": "Gestão de Versionamento e Comparação de Resultados",
+        "eng": "Version Management and Result Comparison"
+      },
+      {
+        "pt": "Integração de Ambientes de Teste",
+        "eng": "Test Environment Integration"
+      }
+    ],
+    "duration": {
+      "year": 2024,
+      "timelen": {
+        "pt": "Vários meses",
+        "eng": "Several months"
+      }
+    },
+    "desc": [
+      {
+        "eng": "Clab (Comparison Lab) is a platform I designed and implemented to allow my team to easily manage and compare different versions of our engines, as well as engines from external companies, purely through their results. The project was built with maintainability, scalability, and iteration speed in mind."
+      },
+      {
+        "eng": "The architecture is based on microservices, each with a dedicated database, and a central API gateway that communicates with the services via gRPC. This design ensures clear separation of concerns, allowing developers to focus purely on service logic without needing to worry about infrastructure or integration details."
+      },
+      {
+        "eng": "All components are containerized with Docker and orchestrated via Docker Compose, providing a fully reproducible and portable environment. CI/CD pipelines were implemented with GitHub Actions and self-hosted runners, automating build, test, and deployment processes and significantly reducing manual overhead."
+      },
+      {
+        "eng": "This approach enabled rapid iteration and simplified maintenance, while the modular design ensures that services can evolve independently without impacting the rest of the system."
+      }
+    ],
+    "chall": [
+      {
+        "eng": "Designing a microservice architecture that was both modular and easy to extend."
+      },
+      {
+        "eng": "Ensuring efficient and reliable communication between services through gRPC."
+      },
+      {
+        "eng": "Managing dedicated databases for each service while preserving system coherence."
+      },
+      {
+        "eng": "Building fully automated CI/CD pipelines using GitHub Actions and self-hosted runners."
+      },
+      {
+        "eng": "Creating a system that is easy for teammates to use, maintain, and iterate on."
+      }
+    ],
+    "rate": 9,
+    "ratelabel": "Highly successful and widely used internally",
+    "pos": [
+      {
+        "eng": "Allowed the team to easily compare engine versions and results."
+      },
+      {
+        "eng": "Introduced scalable and maintainable microservice patterns."
+      },
+      {
+        "eng": "Greatly improved automation with CI/CD pipelines."
+      },
+      {
+        "eng": "Portable, reproducible setup with Docker and Compose."
+      },
+      {
+        "eng": "Allowed me to learn a lot about gRPC"
+      }
+    ],
+    "neg": [
+      {
+        "eng": "Required significant upfront design effort to set up properly."
+      },
+      {
+        "eng": "Managing multiple databases increases operational complexity."
+      },
+      {
+        "eng": "Team learning curve for gRPC and microservice best practices."
+      }
+    ],
+    "img": [
+      "clab1.png",
+      "clab2.png",
+      "clab3.png",
+      "clab4.png",
+      "clab5.png"
+    ],
+    "git": null
+  },
   /*******************************************************************  ABI Thesis *******************************************************************/
   {
     id: "abi_thesis",

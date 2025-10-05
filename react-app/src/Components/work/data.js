@@ -1,6 +1,24 @@
 export const data = [
   {
     title: {
+      pt: "Projeto C-LAB",
+      eng: "C-LAB Project",
+    },
+    subject: {
+      pt: "Desenvolvimento de Software",
+      eng: "Software Development",
+    },
+    description: {
+      pt: '',
+      eng: "Internal tool for comparison and management of different engines' results across multiple companies"
+    },
+    icon: "softdev",
+    image: "clab.png",
+    route: "clab",
+    sub: "Software Development",
+  },
+  {
+    title: {
       pt: "Tese de Mestrado (ABI na Saúde)",
       eng: "Master's Thesis (ABI in Healthcare)",
     },
@@ -9,7 +27,7 @@ export const data = [
       eng: "Software Development",
     },
     description: {
-      pt:'',
+      pt: '',
       eng: 'Interoperability System for integrating ABI systems in Healthcare environments.'
     },
     icon: "softdev",
@@ -27,7 +45,7 @@ export const data = [
       eng: "Software Development",
     },
     description: {
-      pt:'',
+      pt: '',
       eng: 'Platform to compare code bases, calculate similarity, and minimize redundancy.'
     },
     icon: "softdev",
@@ -45,7 +63,7 @@ export const data = [
       eng: "Software Development",
     },
     description: {
-      pt:'',
+      pt: '',
       eng: 'A CLI interface for interacting with Portal das Finanças automatically and programmatically'
     },
     icon: "softdev",
@@ -63,8 +81,8 @@ export const data = [
       eng: "Web Development",
     },
     description: {
-      pt:'',
-      eng:'The popular card game Sueca faithfully recreated using WebSockets for server-client real time communication'
+      pt: '',
+      eng: 'The popular card game Sueca faithfully recreated using WebSockets for server-client real time communication'
     },
     icon: "webdev",
     image: "sueca.png",
@@ -81,8 +99,8 @@ export const data = [
       eng: "System Integration",
     },
     description: {
-      pt:'',
-      eng:'Integration Platform between Jira and Microsoft Devops(TFS) systems for item migration, QA evaluation and work management.'
+      pt: '',
+      eng: 'Integration Platform between Jira and Microsoft Devops(TFS) systems for item migration, QA evaluation and work management.'
     },
     icon: "int",
     image: "qaint.png",

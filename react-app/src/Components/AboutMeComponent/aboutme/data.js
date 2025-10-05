@@ -27,6 +27,6 @@ export const data = {
         pt:"Vamos Falar",
         eng:"Let's Talk"
     },
-    latest:"abi_thesis"
+    latest:"clab"
 };
 

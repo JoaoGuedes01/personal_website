@@ -59,6 +59,36 @@ export const data = {
       courseurl: "https://miegsi.dsi.uminho.pt",
       certurl: "",
     },
+        {
+      title: {
+        pt: "Certificação eJPT",
+        eng: "INE eJPT Certification",
+      },
+      duration: {
+        pt: "",
+        eng: "April 2025 - June 2025",
+      },
+      school: {
+        pt: "INE",
+        eng: "INE",
+      },
+      desc: [
+        {
+          eng: "The eLearnSecurity Junior Penetration Tester (eJPT) is a practical, hands-on certification focused on the foundations of ethical hacking and penetration testing. Unlike multiple-choice exams, it tests real-world skills by requiring candidates to investigate networks, identify vulnerabilities, and exploit them in order to complete specific objectives. Passing the eJPT means proving the ability to think like an attacker while following structured methodologies that are valuable in the cybersecurity industry."
+        },
+        {
+          eng: "My journey toward this certification was both challenging and rewarding. Over the course of more than 200 hours of study and research, I immersed myself in penetration testing concepts, methodologies, and tools. I documented everything carefully in Obsidian, building my own knowledge base of notes, commands, and strategies that I could rely on. This process helped me not only retain what I learned, but also develop a system I can continue to grow throughout my career."
+        },
+        {
+          eng: "Preparation for the exam wasn’t limited to theory. I spent countless hours practicing on vulnerable machines and cracking dozens of boxes in labs and platforms to refine my skills. Each challenge brought new lessons—whether it was sharpening my enumeration process, mastering privilege escalation techniques, or streamlining my workflow with scripts and tools. By the time exam day arrived, I had already worked through scenarios that closely mirrored the test environment."
+        },
+        {
+          eng: "That preparation paid off. When I finally sat for the exam, I felt confident and well-equipped to handle every task. Thanks to the hundreds of hours of effort and practice, I was able to approach the challenges methodically and successfully aced the exam. Earning the eJPT was not only a milestone in my cybersecurity journey, but also proof of the value of persistence, structured learning, and hands-on practice."
+        }
+      ],
+      courseurl: "https://ine.com/security/certifications/ejpt-certification",
+      certurl: "https://certs.ine.com/aff4c099-23cc-4d0a-bb1e-f33683831736#acc.bGxhIOV1",
+    },
 
     {
       title: {
