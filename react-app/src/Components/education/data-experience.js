@@ -10,11 +10,11 @@ export const data = {
   work: [
     {
       title: {
-        pt: "Engenheiro de Segurança de aplicações",
+        pt: "Engenheiro de Segurança de Aplicações",
         eng: "Application Security Engineer",
       },
       duration: {
-        pt: "Set 2023 - Atual.",
+        pt: "Set 2024 - Atual.",
         eng: "Sep 2024 - Current",
       },
       company: {
@@ -24,31 +24,43 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "As an Application Security Engineer at Checkmarx, I specialize in ensuring the integrity and security of software applications by identifying, testing, and mitigating vulnerabilities in code. My work involves analyzing static code through our advanced security scanning engine to detect weaknesses early in the development lifecycle. By leveraging cutting-edge technologies, I help organizations address security risks before they are introduced into production, minimizing the potential for costly security breaches.",
+          eng: "As an Application Security Engineer at Checkmarx, I focus improving our engines through static analysis and vulnerability research. I perform deep static analysis on large-scale systems and open source projects to detect security flaws and match them to our engines' results.",
         },
         {
           pt: "",
-          eng: "In addition to static code analysis, I dedicate a significant portion of my time to researching and testing emerging software vulnerabilities. Staying at the forefront of security trends, I actively explore new attack vectors and potential exploits that could impact application security. This involves reverse-engineering code, exploiting potential weaknesses in real-world scenarios, and providing actionable insights to strengthen the overall security posture of software products.",
+          eng: "Building on my software engineering background, I am also responsible for the design and development of internal tools and automation platforms that support the Application Security team. My work bridges security analysis with software engineering, enabling more efficient, data-driven decision-making.",
         },
         {
           pt: "",
-          eng: "One of my key responsibilities is engaging in ethical hacking initiatives to simulate real-world cyberattacks and identify vulnerabilities within the systems. This hands-on approach allows me to assess the resilience of applications against malicious actors. By performing penetration testing and red teaming exercises, I help organizations understand their weaknesses from an attacker’s perspective, ensuring that they can proactively address security flaws before they are exploited.",
+          eng: "My main project in this role is the CLab Platform — a comprehensive system that parses and visualizes results from multiple SAST, DAST, and IaC engines such as Checkmarx, Snyk, Veracode, GitHub Advanced Security, and Semgrep. The platform highlights results in their respective source files, allowing analysts to classify findings as True Positive (TP), False Positive (FP), or Not Exploitable (NE). This unified analysis environment provides an unbiased view of various security engines, enabling fair comparisons and deeper understanding of strengths and weaknesses across the market.",
         },
         {
           pt: "",
-          eng: "Collaboration and continuous learning are integral to my role as an Application Security Engineer. I work closely with cross-functional teams, including developers, security analysts, and product managers, to promote secure coding practices and foster a culture of security-first thinking throughout the organization. By combining in-depth technical expertise with a passion for security, I am dedicated to safeguarding digital assets and contributing to a more secure software ecosystem.",
+          eng: "Beyond tool development, I actively engage in vulnerability research — discovering, reproducing, and studying new security flaws. These findings are later translated into detection queries or research reports that enhance our products’ capabilities and threat coverage.",
+        },
+        {
+          pt: "",
+          eng: "I also participate in CVE Hunt initiatives, where our team targets specific technologies or products to uncover new vulnerabilities over dedicated research sprints. These exercises often lead to valuable CVE discoveries and strengthen our offensive security expertise.",
+        },
+        {
+          pt: "",
+          eng: "Through my technical analysis and collaboration with product teams, I have directly contributed to the successful retention of key clients who were considering alternative SAST/DAST/IaC solutions — reinforcing the value and competitiveness of our security products.",
+        },
+        {
+          pt: "",
+          eng: "Overall, my role combines hands-on security research, software engineering, and analytical thinking to build tools, identify vulnerabilities, and empower the organization to deliver stronger and more reliable security solutions.",
         },
       ],
       companyurl: "https://checkmarx.com/",
     },
     {
       title: {
-        pt: "Engenheiro de Software e Quality Assurance",
-        eng: "Software Engineer and Quality Assurance",
+        pt: "Engenheiro de Software",
+        eng: "Software Engineer",
       },
       duration: {
-        pt: "Maio 2023 - Atual.",
-        eng: "May 2023 - Sep 2024.",
+        pt: "Out 2021 - Set 2024",
+        eng: "Oct 2021 - Sep 2024",
       },
       company: {
         pt: "Checkmarx - Braga",
@@ -57,39 +69,39 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "After my professional internship I was offered a full-time position in the Quality Assurance team where I got to work directly with the teams that made the Checkmarx Engine possible.",
+          eng: "As a Software Engineer at Checkmarx, I worked within the Quality Assurance division, primarily focused on software development for internal systems, CI/CD infrastructure, and automation platforms. Although part of the QA organization, my role was centered around backend and full-stack development, maintaining and evolving internal systems critical to the stability and performance of our SAST engine ecosystem.",
         },
         {
           pt: "",
-          eng: "Above all my responsibilities boiled down to making sure that the Engine was always in top condition. I was assigned a particular team and all their work would go through me before being integrated permanentely.",
+          eng: "Throughout this period, I maintained and improved multiple internal applications and services built using Python (Flask), Node.js (Express.js), Java (Spring Boot), and C# (WPF and ASP.NET), along with React-based frontends. These services supported validation, orchestration, and analysis processes for the company’s security engine.",
         },
         {
           pt: "",
-          eng: "Making sure of this means controlling what happens between changes down to the single outputs of the Engine. For this we developed an intricate system of CI/CD in order to have this information at all times. My contributions to this ecosystem are constant and my work also extends to maintaining it and to come up with new and inovative systems and workflows enabling us to have a better understanding of everything going on.",
+          eng: "I worked extensively with microservices orchestrated through Docker Swarm, refactored legacy codebases to modern standards, and led the effort to containerize multiple applications using Dev Containers. I was also responsible for maintaining and extending Jenkins pipelines while pioneering the adoption of GitHub Actions for new projects, later leading the migration of legacy pipelines to the new CI/CD framework.",
         },
         {
           pt: "",
-          eng: "On this note I was a crucial part of the recent data driven analysis and insight gathering internal projects that aim to more clearly communicate to us and the Engine developers the repercussions of their changes.",
+          eng: "One of my key projects was 'Doppelganger' — an internal management and analytics platform for Checkmarx’s SAST engine test projects. It served as a centralized source of truth for engine results and provided intelligent similarity scoring between projects to measure coverage and reduce redundancy. By identifying overlapping results, the system optimized CI workloads and reduced execution time across thousands of projects.",
         },
         {
           pt: "",
-          eng: "For my daily work I need strong cybersecurity knowledge/notion since I'm validating weather our SaST engine is working properly when it comes to new features and vulnerabilities. This leads me to research a lot and try to find new ways where the code might still be vulnerable but not caught by SaST.",
+          eng: "Another major initiative I led was the 'Vorpal Regression Management System', a version control and analytics platform that monitored changes in the Vorpal engine’s codebase and automatically tracked regressions or result deviations across test collections. This system allowed developers to detect breaking changes before merging code, integrating features such as multi-branch support, transaction-safe database operations, caching layers, and real-time analytics dashboards for visibility across the team.",
         },
         {
           pt: "",
-          eng: "Automation also plays a very big part in my work since we're always looking for new ways to be more efficient and to have more free time to dedicate to actually brainstorm new ideas. On this note I was the pioneer of using Jupyter Lab and Python for our automation/manual analysis work since it allows us to look at data more freely and quickly.",
+          eng: "Overall, my work spanned across full-stack development, DevOps, automation, and infrastructure — contributing to the team’s ability to deliver faster, more reliable, and more maintainable internal systems while driving modernization initiatives across the QA organization.",
         },
       ],
       companyurl: "https://checkmarx.com/",
     },
     {
       title: {
-        pt: "Estágio Profissional em Engenharia de Software, Infraestrutura e QA",
-        eng: "Professional Internship for Software Engineering, Infrastructure and Quality Assurance",
+        pt: "Estágio de Verão em Desenvolvimento de Software e QA",
+        eng: "Summer Internship in Software Development and QA",
       },
       duration: {
-        pt: "Agosto 2022 - Abril 2023",
-        eng: "August 2022 - April 2023",
+        pt: "Ago 2021 - Out 2021",
+        eng: "Aug 2021 - Oct 2021",
       },
       company: {
         pt: "Checkmarx - Braga",
@@ -98,48 +110,15 @@ export const data = {
       desc: [
         {
           pt: "",
-          eng: "After my Summer Internship at Checkmarx I was offered the opportunity to integrate the Quality Assurance team as a professional intern with the help of IEFP Portugal (Employment Institute). This internship would span 9 months where I would gain a lot of valuable work experience and knowledge. This time I would be integrating the team on their every day activities but I would also be developing an entire project by myself.",
+          eng: "During my summer internship at Checkmarx, I joined the QA development team where I worked on internal tools supporting the continuous integration and testing pipelines of our products.",
         },
         {
           pt: "",
-          eng: "The quality assurance team at Checkmarx also doubles at Devops or Infrastructure Engineering to the extent that we also take care of Continuous Integration (CI) in the development of Software. As far as Quality Assurance goes I was allocated in the main product (SAST) in which I had to review pull requests and iterations for an entire team on our static code analysis tool. This meant that I had to learn the vulnerabilities/code along with the developers, create code samples to test queries and check all CI impact when introducing new features. In the QA team we worked in an Agile environment following the SCRUM methodology with Daily SCRUM, Plannings, Retrospectives and Knowledge Sharing meetings. In this environment, once per version release, the SCRUM master would rotate so we all could have some experience and share responsibility.",
+          eng: "My responsibilities included implementing and maintaining C# and JavaScript-based tools, improving automation workflows, and assisting with CI/CD tasks related to test infrastructure. I gained early hands-on experience with software development practices, version control, and internal process optimization.",
         },
         {
           pt: "",
-          eng: "The main part of this internship was the development of one of the most influential projects in the company Doppelganger which would assess the current vulnerabilities Sast could pick up and scrape github for new vulnerability flows in order to reduce redundancy in our CI. This project took me all over the development cycle since it was made from scratch. I had creative freedom to decide which technologies to use, approaches and architecture as well as its maintenance. This is an ongoing project that allows me to dabble with Software Architecture (Docker, portainer, Kubernetes and Traefik), Database Management and Integration (MongoDB, ElasticSearch and DynamoDB), Data Analytics for findings review and Business Analytics (Python, Pandas, Tableau, PowerBI) and a lot of software development (mainly in Node.js, python and powershell).",
-        },
-        {
-          pt: "",
-          eng: "To automate my work I created a platform for integration between Jira and Microsoft Devops since different teams use different platforms to manage their work items. This created repetitive cycles of copying and pasting a lot of information about the work items and the review was made in comments. My integration platform eliminated the need for multitasking between platforms, created a way to standardize the QA process and added a few quality of life management options for the entire QA Team.",
-        },
-      ],
-      companyurl: "https://checkmarx.com/",
-    },
-    {
-      title: {
-        pt: "Estágio de Verão em Engenharia de Software e QA",
-        eng: "Summer Internship for Software Engineering and Quality Assurance",
-      },
-      duration: {
-        pt: "",
-        eng: "August 2021 - October 2021",
-      },
-      company: {
-        pt: "",
-        eng: "Checkmarx - Braga",
-      },
-      desc: [
-        {
-          pt: "",
-          eng: "In the summer of 2021 I was an Intern at Checkmarx. I heard about the company when they attended the job fair at my college and I was pretty interested so I applied. After some quick meeting they felt I would integrate very well on the QA Development team.",
-        },
-        {
-          pt: "",
-          eng: "In this team my responsibilities were not very high but compeling and challenging. My work would be divided in two, I had some development tasks such as adding/removing/supporting new features to existing tools and some QA tasks. My favourite tasks were the development ones where I dabbled with C# and Visual Studio to fix existing features, add new ones or entirely remove parts of the app's engine (which is more challenging than it seems). My QA tasks were, basically, messing with CI (Continuous Integration) git repo version control and static code analysis given we had some legacy tests that no one new were passing/failing.",
-        },
-        {
-          pt: "",
-          eng: "I also developed a personal desktop app using Electron React and Bootstrap that would automate my 'boring' work of selecting some tests to evaluate, create a structured word document with my findings, creating a bug, if needed, and marking the said code as analysed. The last thing I did in this internship was a C# library that would give developers an API to call a REST API and then display a styled result window (with Material UI).",
+          eng: "Additionally, I developed a small desktop automation app using Electron and React to streamline repetitive QA operations, automatically generating reports and handling issue tracking. This project sparked my passion for combining development with automation to improve workflows.",
         },
       ],
       companyurl: "https://checkmarx.com/",
